@@ -23,6 +23,7 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/img/HeroLogo_1920x1920.png" alt="SeaDragon Hero" width="50%" height="50%">
 
+[[http://imgur.com/a/Q9kw1]]
 ### Note
 
 > These rocket parts ARE NOT stock balanced! They're using the real world mass ratios,
