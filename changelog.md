@@ -122,7 +122,7 @@
 
 ## Version 0.1.0.0 - `<Archival>` edition
 
-* 2016-03-25
+* 25 Mar 2016
 * Released for Kerbal Space Program 1.0.5
 
 * First test release
