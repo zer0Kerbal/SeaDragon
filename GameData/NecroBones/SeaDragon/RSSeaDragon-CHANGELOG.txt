@@ -1,3 +1,6 @@
+0.3.4 (2016-07-12) - Tweak.
+ - Slightly increased heat tolerance of first stage parts.
+
 0.3.3 (2016-05-11) - Minor hotfix.
  - Corrected staging problems in sample rockets.
 

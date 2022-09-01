@@ -14,6 +14,7 @@
 
 * 12 Jul 2016
 * Released for Kerbal Space Program 1.9.1
+* Final release by original author
 
 * Tweak
 * Slightly increased heat tolerance of first stage parts.
