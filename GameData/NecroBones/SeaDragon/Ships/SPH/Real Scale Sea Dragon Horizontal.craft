@@ -1,5 +1,5 @@
 ship = Real Scale Sea Dragon Horizontal
-version = 1.1.0
+version = 1.1.2
 description = 
 type = SPH
 size = 33.4,38.88024,157.3152
@@ -178,6 +178,536 @@ PART
 	}
 	MODULE
 	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 2.5
+		defaultScale = 2.5
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 3400
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = MechJebCore
+		isEnabled = True
+		running = True
+		stagingEnabled = True
+		running_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnOrbitProgradeAction
+			{
+				actionGroup = None
+			}
+			OnOrbitRetrogradeAction
+			{
+				actionGroup = None
+			}
+			OnOrbitNormalAction
+			{
+				actionGroup = None
+			}
+			OnOrbitAntinormalAction
+			{
+				actionGroup = None
+			}
+			OnOrbitRadialInAction
+			{
+				actionGroup = None
+			}
+			OnOrbitRadialOutAction
+			{
+				actionGroup = None
+			}
+			OnKillRotationAction
+			{
+				actionGroup = None
+			}
+			OnDeactivateSmartASSAction
+			{
+				actionGroup = None
+			}
+			OnPanicAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronOffAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronKeepVertAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronZeroSpeedAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronPlusOneSpeedAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronMinusOneSpeedAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronToggleHSAction
+			{
+				actionGroup = None
+			}
+		}
+		MechJebLocalSettings
+		{
+			MechJebModuleMenu
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleAscentAutopilot
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleAscentGuidance
+			{
+				unlockParts = 
+				unlockTechs = unmannedTech
+			}
+			MechJebModuleAscentNavBall
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleAscentPathEditor
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleAttitudeAdjustment
+			{
+				unlockParts = 
+				unlockTechs = advFlightControl
+			}
+			MechJebModuleCustomWindowEditor
+			{
+				unlockParts = 
+				unlockTechs = flightControl
+			}
+			MechJebModuleDebugArrows
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleDockingAutopilot
+			{
+				forceRol = False
+				overrideSafeDistance = False
+				overrideTargetSize = False
+				unlockParts = 
+				unlockTechs = 
+				rol
+				{
+					_val = 0
+					_text = 0
+				}
+			}
+			MechJebModuleDockingGuidance
+			{
+				unlockParts = 
+				unlockTechs = advUnmanned
+			}
+			MechJebModuleInfoItems
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleLandingAutopilot
+			{
+				deployGears = True
+				deployChutes = True
+				rcsAdjustment = True
+				unlockParts = 
+				unlockTechs = 
+				touchdownSpeed
+				{
+					_val = 0.5
+					_text = 0.5
+				}
+				minThrust
+				{
+					_val = 0
+					_text = 0
+				}
+				decelerationEndAltitude
+				{
+					_val = 500
+					_text = 500
+				}
+				CorrectionBeforeDeceleration
+				{
+					_val = 1000
+					_text = 1000
+				}
+				safityThrustLimit
+				{
+					_val = 0.9
+					_text = 0.9
+				}
+				limitGearsStage
+				{
+					val = 0
+					_text = 0
+				}
+				limitChutesStage
+				{
+					val = 0
+					_text = 0
+				}
+			}
+			MechJebModuleLandingGuidance
+			{
+				landingSiteIdx = 0
+				unlockParts = 
+				unlockTechs = unmannedTech
+			}
+			MechJebModuleLandingPredictions
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleManeuverPlanner
+			{
+				unlockParts = 
+				unlockTechs = advFlightControl
+			}
+			MechJebModuleNodeEditor
+			{
+				unlockParts = 
+				unlockTechs = advFlightControl
+			}
+			MechJebModuleNodeExecutor
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleRCSBalancerWindow
+			{
+				unlockParts = 
+				unlockTechs = advFlightControl
+			}
+			MechJebModuleRendezvousAutopilot
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleRendezvousAutopilotWindow
+			{
+				unlockParts = 
+				unlockTechs = advUnmanned
+			}
+			MechJebModuleRendezvousGuidance
+			{
+				unlockParts = 
+				unlockTechs = advUnmanned
+			}
+			MechJebModuleRoverController
+			{
+				ControlHeading = False
+				ControlSpeed = False
+				BrakeOnEject = False
+				BrakeOnEnergyDepletion = False
+				WarpToDaylight = True
+				StabilityControl = False
+				LimitAcceleration = False
+				unlockParts = 
+				unlockTechs = 
+				heading
+				{
+					_val = 0
+					_text = 0
+				}
+				speed
+				{
+					_val = 10
+					_text = 10
+				}
+			}
+			MechJebModuleRoverWindow
+			{
+				unlockParts = 
+				unlockTechs = fieldScience
+			}
+			MechJebModuleSettings
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleSmartASS
+			{
+				mode = ORBITAL
+				target = OFF
+				advReference = INERTIAL
+				advDirection = FORWARD
+				forceRol = False
+				forcePitch = True
+				forceYaw = True
+				unlockParts = 
+				unlockTechs = flightControl
+				srfHdg
+				{
+					_val = 90
+					_text = 90
+				}
+				srfPit
+				{
+					_val = 90
+					_text = 90
+				}
+				srfRol
+				{
+					_val = 0
+					_text = 0
+				}
+				srfVelYaw
+				{
+					_val = 0
+					_text = 0
+				}
+				srfVelPit
+				{
+					_val = 0
+					_text = 0
+				}
+				srfVelRol
+				{
+					_val = 0
+					_text = 0
+				}
+				rol
+				{
+					_val = 0
+					_text = 0
+				}
+			}
+			MechJebModuleSmartRcs
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleSpaceplaneAutopilot
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleSpaceplaneGuidance
+			{
+				runwayIndex = 0
+				unlockParts = 
+				unlockTechs = unmannedTech
+			}
+			MechJebModuleStageStats
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleTargetController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleThrustWindow
+			{
+				autostageSavedState = False
+				unlockParts = 
+				unlockTechs = advFlightControl
+			}
+			MechJebModuleTranslatron
+			{
+				unlockParts = 
+				unlockTechs = advFlightControl
+				trans_spd
+				{
+					_val = 0
+					_text = 0
+				}
+			}
+			MechJebModuleWarpHelper
+			{
+				unlockParts = 
+				unlockTechs = advFlightControl
+				phaseAngle
+				{
+					_val = 0
+					_text = 0
+				}
+			}
+			MechJebModuleWaypointWindow
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleWaypointHelpWindow
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			ModExtensionDemo
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleWarpController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleSolarPanelController
+			{
+				prev_ShouldOpenSolarPanels = False
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleThrustController
+			{
+				limitThrottle = False
+				limiterMinThrottle = False
+				electricThrottle = False
+				unlockParts = 
+				unlockTechs = 
+				maxThrottle
+				{
+					_val = 1
+					_text = 100
+				}
+				minThrottle
+				{
+					_val = 0.05
+					_text = 5
+				}
+				electricThrottleLo
+				{
+					_val = 0.05
+					_text = 5
+				}
+				electricThrottleHi
+				{
+					_val = 0.15
+					_text = 15
+				}
+			}
+			MechJebModuleRCSController
+			{
+				unlockParts = 
+				unlockTechs = 
+				Tf
+				{
+					_val = 1
+					_text = 1
+				}
+				Kp
+				{
+					_val = 0.125
+					_text = 0.125
+				}
+				Ki
+				{
+					_val = 0.07
+					_text = 0.07
+				}
+				Kd
+				{
+					_val = 0.53
+					_text = 0.53
+				}
+			}
+			MechJebModuleRCSBalancer
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleAttitudeController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleStagingController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleFlightRecorder
+			{
+				markUT = 0
+				deltaVExpended = 0
+				dragLosses = 0
+				gravityLosses = 0
+				steeringLosses = 0
+				markLAN = 0
+				markLatitude = 0
+				markLongitude = 0
+				markAltitude = 0
+				markBodyIndex = 1
+				maxDragGees = 0
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleFlightRecorderGraph
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+		}
+	}
+	MODULE
+	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -252,6 +782,83 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleControllableEmissive
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceIndicator
+		isEnabled = True
+		isUiEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 2.5
+		defaultScale = 2.5
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 4500
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
 	}
 	RESOURCE
 	{
@@ -385,6 +992,34 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 23300
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
@@ -393,7 +1028,7 @@ PART
 	pos = 6.077735,20.29,58.29033
 	attPos = 0,0,0
 	attPos0 = -1.565451,-0.02413177,7.382923E-08
-	rot = 0.7071068,-0.7071068,1.47514E-07,-1.47514E-07
+	rot = 0.7071068,-0.7071068,1.788139E-07,-1.788139E-07
 	attRot = 0,0,0,1
 	attRot0 = 0.5000001,-0.5,0.5000001,0.5
 	mir = 1,1,1
@@ -490,6 +1125,34 @@ PART
 		CoreThermalEnergy = 0
 		stagingEnabled = True
 		lastUpdateTime = 0
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 23300
+		stagingEnabled = True
 		EVENTS
 		{
 			ToggleStaging
@@ -633,6 +1296,34 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 23300
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
@@ -641,7 +1332,7 @@ PART
 	pos = 9.208638,20.29,58.29033
 	attPos = 0,0,0
 	attPos0 = 1.565451,-0.02413177,-2.106853E-07
-	rot = 0.7071068,0.7071068,-1.47514E-07,-1.47514E-07
+	rot = 0.7071068,0.7071068,-1.788139E-07,-1.788139E-07
 	attRot = 0,0,0,1
 	attRot0 = 0.5000001,0.5,-0.5000001,0.5
 	mir = 1,1,1
@@ -738,6 +1429,34 @@ PART
 		CoreThermalEnergy = 0
 		stagingEnabled = True
 		lastUpdateTime = 0
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 23300
+		stagingEnabled = True
 		EVENTS
 		{
 			ToggleStaging
@@ -881,6 +1600,34 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 23300
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
@@ -897,8 +1644,8 @@ PART
 	istg = 0
 	dstg = 1
 	sidx = 0
-	sqor = -1
-	sepI = 1
+	sqor = 0
+	sepI = 0
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -1051,6 +1798,34 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 2.5
+		defaultScale = 2.5
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 550
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
@@ -1067,8 +1842,8 @@ PART
 	istg = 1
 	dstg = 3
 	sidx = 0
-	sqor = -1
-	sepI = 1
+	sqor = 1
+	sepI = 0
 	attm = 0
 	modCost = 29864.31
 	modMass = 41.47821
@@ -1272,12 +2047,40 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 10000
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = RSSDtankStage2_4293946352
 	partName = Part
-	pos = 7.643187,20.29001,26.69308
+	pos = 7.643187,20.29001,26.69307
 	attPos = 0,0,0
 	attPos0 = 0,-29.3,0
 	rot = 0.7071068,0,0,0.7071068
@@ -1289,7 +2092,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 0
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -1330,6 +2133,34 @@ PART
 	PARTDATA
 	{
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 596570.5
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -1357,7 +2188,7 @@ PART
 {
 	part = RSSDengineStage2_4293946204
 	partName = Part
-	pos = 7.643187,20.29001,12.89307
+	pos = 7.643187,20.29001,12.89306
 	attPos = 0,0,0
 	attPos0 = 0,-13.8,0
 	rot = 0.7071068,0,0,0.7071068
@@ -1368,8 +2199,8 @@ PART
 	istg = 2
 	dstg = 4
 	sidx = 0
-	sqor = -1
-	sepI = 1
+	sqor = 2
+	sepI = 0
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -1689,12 +2520,40 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 1595000
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = RSSDengineTVC_4293945810
 	partName = Part
-	pos = -3.813936,20.29001,8.97559
+	pos = -3.813936,20.29001,8.975574
 	attPos = 0,0,0
 	attPos0 = -11.45712,-17.71748,6.817281E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -1706,7 +2565,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 4
-	sepI = 1
+	sepI = 0
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -1956,6 +2815,34 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 15000
+		stagingEnabled = True
+		EVENTS
+		{
 			ToggleStaging
 			{
 				active = True
@@ -1978,7 +2865,7 @@ PART
 {
 	part = RSSDengineTVC_4293945712
 	partName = Part
-	pos = 7.643187,8.832875,8.975605
+	pos = 7.643187,8.832873,8.97559
 	attPos = 0,0,0
 	attPos0 = -1.862645E-09,-17.71748,11.45712
 	rot = 0.5000001,0.5000001,0.5000001,0.5000001
@@ -1990,7 +2877,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 4
-	sepI = 1
+	sepI = 0
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -2240,6 +3127,34 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 15000
+		stagingEnabled = True
+		EVENTS
+		{
 			ToggleStaging
 			{
 				active = True
@@ -2262,7 +3177,7 @@ PART
 {
 	part = RSSDengineTVC_4293945614
 	partName = Part
-	pos = 19.1003,20.29001,8.97559
+	pos = 19.1003,20.29001,8.975574
 	attPos = 0,0,0
 	attPos0 = 11.45712,-17.71748,-1.683831E-06
 	rot = -3.090862E-08,0.7071068,0.7071068,-3.090862E-08
@@ -2274,7 +3189,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 4
-	sepI = 1
+	sepI = 0
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -2541,12 +3456,40 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 15000
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = RSSDengineTVC_4293945516
 	partName = Part
-	pos = 7.643185,31.74713,8.975609
+	pos = 7.643185,31.74713,8.975594
 	attPos = 0,0,0
 	attPos0 = -1.365319E-06,-17.71748,-11.45712
 	rot = -0.5000001,0.5000001,0.5000001,-0.5000001
@@ -2558,7 +3501,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 4
-	sepI = 1
+	sepI = 0
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -2825,12 +3768,40 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 15000
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = RSSDtankStage1_4293945418
 	partName = Part
-	pos = 7.643187,20.29001,-15.60695
+	pos = 7.643187,20.29001,-15.60696
 	attPos = 0,0,0
 	attPos0 = 0,-28.5,0
 	rot = 0.7071068,0,0,0.7071068
@@ -2967,6 +3938,34 @@ PART
 			}
 		}
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 0
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -2994,7 +3993,7 @@ PART
 {
 	part = RSSDengineStage1_4293945274
 	partName = Part
-	pos = 7.643187,20.29002,-35.20694
+	pos = 7.643187,20.29002,-35.20695
 	attPos = 0,0,0
 	attPos0 = 0,-19.59999,0
 	rot = 0.7071068,0,0,0.7071068
@@ -3002,10 +4001,10 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 4
-	sidx = 1
-	sqor = 4
+	sidx = 0
+	sqor = 5
 	sepI = 3
 	attm = 0
 	modCost = 0
@@ -3379,6 +4378,123 @@ PART
 	}
 	MODULE
 	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 1595000
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = MechJebCore
+		isEnabled = True
+		running = True
+		stagingEnabled = True
+		running_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnOrbitProgradeAction
+			{
+				actionGroup = None
+			}
+			OnOrbitRetrogradeAction
+			{
+				actionGroup = None
+			}
+			OnOrbitNormalAction
+			{
+				actionGroup = None
+			}
+			OnOrbitAntinormalAction
+			{
+				actionGroup = None
+			}
+			OnOrbitRadialInAction
+			{
+				actionGroup = None
+			}
+			OnOrbitRadialOutAction
+			{
+				actionGroup = None
+			}
+			OnKillRotationAction
+			{
+				actionGroup = None
+			}
+			OnDeactivateSmartASSAction
+			{
+				actionGroup = None
+			}
+			OnPanicAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronOffAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronKeepVertAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronZeroSpeedAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronPlusOneSpeedAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronMinusOneSpeedAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronToggleHSAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -3424,7 +4540,7 @@ PART
 	pos = 6.557715,21.37548,58.03122
 	attPos = 0,0,0
 	attPos0 = -1.085471,0.03176117,-1.085471
-	rot = -0.3826835,0.9238796,-1.685874E-07,0
+	rot = -0.3826835,0.9238796,-1.788139E-07,0
 	attRot = 0,0,0,1
 	attRot0 = -0.2705981,0.6532814,-0.6532816,-0.2705981
 	mir = 1,1,1
@@ -3540,6 +4656,34 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 23300
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
@@ -3548,7 +4692,7 @@ PART
 	pos = 6.557715,19.20453,58.03122
 	attPos = 0,0,0
 	attPos0 = -1.085471,0.03176117,1.085471
-	rot = -0.9238796,0.3826835,-8.42937E-08,1.685874E-07
+	rot = -0.9238796,0.3826835,-8.940697E-08,1.788139E-07
 	attRot = 0,0,0,1
 	attRot0 = -0.6532816,0.270598,-0.2705981,-0.6532814
 	mir = 1,1,1
@@ -3664,6 +4808,34 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 23300
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
@@ -3672,7 +4844,7 @@ PART
 	pos = 8.728658,19.20453,58.03122
 	attPos = 0,0,0
 	attPos0 = 1.085471,0.03176117,1.085471
-	rot = -0.9238796,-0.3826836,6.322028E-08,2.528811E-07
+	rot = -0.9238796,-0.3826836,4.470348E-08,2.384186E-07
 	attRot = 0,0,0,1
 	attRot0 = -0.6532816,-0.2705981,0.2705982,-0.6532814
 	mir = 1,1,1
@@ -3788,6 +4960,34 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 23300
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
@@ -3796,7 +4996,7 @@ PART
 	pos = 8.728658,21.37548,58.03122
 	attPos = 0,0,0
 	attPos0 = 1.085471,0.03176117,-1.085471
-	rot = -0.3826835,-0.9238796,1.685874E-07,8.42937E-08
+	rot = -0.3826835,-0.9238796,1.788139E-07,8.940697E-08
 	attRot = 0,0,0,1
 	attRot0 = -0.2705981,-0.6532814,0.6532816,-0.270598
 	mir = 1,1,1
@@ -3912,12 +5112,40 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 23300
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = launchClamp1_4293809258
 	partName = Part
-	pos = -1.032371,11.61445,27.31084
+	pos = -1.032371,11.61445,27.31083
 	attPos = 0,0,0
 	attPos0 = -8.675557,0.6177559,8.675558
 	rot = 0.2705939,0.6532713,0.6532918,0.2706023
@@ -3929,7 +5157,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -3949,7 +5177,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.09837
+		scaleFactor = 4.098371
 		height = 10.341
 		stagingEnabled = True
 		towerRot = -0.2705939,-0.6532713,-0.6532918,0.2706023
@@ -4091,7 +5319,7 @@ PART
 {
 	part = launchClamp1_4293808804
 	partName = Part
-	pos = 16.31874,11.61445,27.31084
+	pos = 16.31874,11.61445,27.31083
 	attPos = 0,0,0
 	attPos0 = 8.675557,0.617754,8.675558
 	rot = -0.2705938,0.6532713,0.6532918,-0.2706023
@@ -4101,9 +5329,9 @@ PART
 	symMethod = Mirror
 	istg = 6
 	dstg = 4
-	sidx = 1
+	sidx = 0
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -4123,7 +5351,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.09837
+		scaleFactor = 4.098371
 		height = 10.341
 		stagingEnabled = True
 		towerRot = 0.2705938,-0.6532713,-0.6532918,-0.2706023
@@ -4265,10 +5493,10 @@ PART
 {
 	part = launchClamp1_4293778246
 	partName = Part
-	pos = -1.028667,11.61816,-32.11871
+	pos = -1.028667,11.61816,-32.11873
 	attPos = 0,0,0
 	attPos0 = -8.671854,-16.51171,8.671853
-	rot = 0.2706022,0.6532913,0.6532717,0.2705939
+	rot = 0.2706022,0.6532913,0.6532718,0.2705939
 	attRot = 0,0,0,1
 	attRot0 = 5.816265E-06,0.9238795,-1.390846E-05,0.3826834
 	mir = 1,1,1
@@ -4277,7 +5505,7 @@ PART
 	dstg = 4
 	sidx = 1
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -4439,19 +5667,19 @@ PART
 {
 	part = launchClamp1_4293777780
 	partName = Part
-	pos = 16.31504,11.61816,-32.11868
+	pos = 16.31504,11.61816,-32.1187
 	attPos = 0,0,0
 	attPos0 = 8.671853,-16.5117,8.671853
-	rot = -0.2706022,0.6532913,0.6532717,-0.2705939
+	rot = -0.2706022,0.6532913,0.6532718,-0.2705939
 	attRot = 0,0,0,1
 	attRot0 = -5.879485E-06,0.9238795,-1.390846E-05,-0.3826834
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 6
 	dstg = 4
-	sidx = 3
+	sidx = 1
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -4613,7 +5841,7 @@ PART
 {
 	part = RSSDtankBallast_4293641514
 	partName = Part
-	pos = 7.643187,20.29001,-61.00703
+	pos = 7.643187,20.29001,-61.00706
 	attPos = 0,0,0
 	attPos0 = 0,-25.80003,4.649914E-06
 	rot = 0.7071068,0,0,0.7071068
@@ -4621,11 +5849,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Mirror
-	istg = 5
+	istg = 4
 	dstg = 4
-	sidx = 0
-	sqor = 5
-	sepI = 5
+	sidx = 1
+	sqor = 4
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -4986,6 +6214,34 @@ PART
 			}
 		}
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 100
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 99500
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = BallastMass
@@ -5002,7 +6258,7 @@ PART
 {
 	part = launchClamp1_4293640348
 	partName = Part
-	pos = -5.823836,12.51483,-58.58627
+	pos = -5.823836,12.51483,-58.5863
 	attPos = 0,0,0
 	attPos0 = -13.46702,-23.37926,7.775188
 	rot = 0.4122168,0.7139788,0.4901362,0.2829809
@@ -5014,7 +6270,7 @@ PART
 	dstg = 4
 	sidx = 2
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5034,7 +6290,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.635661
+		scaleFactor = 4.635649
 		height = 11.69669
 		stagingEnabled = True
 		towerRot = -0.4122168,-0.7139788,-0.4901362,0.2829809
@@ -5176,7 +6432,7 @@ PART
 {
 	part = launchClamp1_4293639894
 	partName = Part
-	pos = 21.11021,12.51483,-58.58627
+	pos = 21.11021,12.51483,-58.5863
 	attPos = 0,0,0
 	attPos0 = 13.46702,-23.37927,7.775189
 	rot = -0.4122168,0.7139789,0.4901362,-0.2829808
@@ -5186,9 +6442,9 @@ PART
 	symMethod = Mirror
 	istg = 6
 	dstg = 4
-	sidx = 4
+	sidx = 2
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5208,7 +6464,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.635674
+		scaleFactor = 4.635661
 		height = 11.69669
 		stagingEnabled = True
 		towerRot = 0.4122168,-0.7139789,-0.4901361,-0.2829808
@@ -5350,10 +6606,10 @@ PART
 {
 	part = launchClamp1_4293425524
 	partName = Part
-	pos = -1.049039,11.59778,-7.980347
+	pos = -1.049039,11.59778,-7.980362
 	attPos = 0,0,0
 	attPos0 = -8.692226,7.626602,8.692225
-	rot = 0.2705982,0.6532816,0.6532815,0.2705981
+	rot = 0.2705981,0.6532816,0.6532815,0.2705981
 	attRot = 0,0,0,1
 	attRot0 = 8.42937E-08,0.9238796,-4.214685E-08,0.3826835
 	mir = 1,1,1
@@ -5362,7 +6618,7 @@ PART
 	dstg = 4
 	sidx = 3
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5382,10 +6638,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.091783
+		scaleFactor = 4.091781
 		height = 10.32436
 		stagingEnabled = True
-		towerRot = -0.2705981,-0.6532815,-0.6532815,0.270598
+		towerRot = -0.2705981,-0.6532816,-0.6532815,0.2705981
 		EVENTS
 		{
 			Release
@@ -5524,19 +6780,19 @@ PART
 {
 	part = launchClamp1_4293236412
 	partName = Part
-	pos = 16.33541,11.59778,-7.980347
+	pos = 16.33541,11.59778,-7.980362
 	attPos = 0,0,0
 	attPos0 = 8.692226,7.626602,8.692226
-	rot = -0.2705982,0.6532816,0.6532815,-0.270598
+	rot = -0.2705982,0.6532816,0.6532815,-0.2705979
 	attRot = 0,0,0,1
 	attRot0 = -1.053671E-07,0.9238796,-4.214685E-08,-0.3826835
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 6
 	dstg = 4
-	sidx = 14
+	sidx = 3
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5556,10 +6812,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.091782
+		scaleFactor = 4.091781
 		height = 10.32436
 		stagingEnabled = True
-		towerRot = 0.2705981,-0.6532815,-0.6532815,-0.270598
+		towerRot = 0.2705982,-0.6532816,-0.6532815,-0.2705979
 		EVENTS
 		{
 			Release
@@ -5698,10 +6954,10 @@ PART
 {
 	part = launchClamp1_4293808350
 	partName = Part
-	pos = -1.028226,11.6186,-0.1779099
+	pos = -1.028226,11.6186,-0.1779251
 	attPos = 0,0,0
 	attPos0 = -8.671413,-26.87099,8.671412
-	rot = 0.2705982,0.6532815,0.6532815,0.2705981
+	rot = 0.2705981,0.6532815,0.6532815,0.2705981
 	attRot = 0,0,0,1
 	attRot0 = 8.42937E-08,0.9238795,0,0.3826835
 	mir = 1,1,1
@@ -5710,7 +6966,7 @@ PART
 	dstg = 4
 	sidx = 4
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5730,10 +6986,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.100027
+		scaleFactor = 4.100032
 		height = 10.34518
 		stagingEnabled = True
-		towerRot = -0.2705982,-0.6532815,-0.6532815,0.2705981
+		towerRot = -0.2705981,-0.6532815,-0.6532815,0.2705981
 		EVENTS
 		{
 			Release
@@ -5872,19 +7128,19 @@ PART
 {
 	part = launchClamp1_4293235958
 	partName = Part
-	pos = 16.3146,11.6186,-0.1779099
+	pos = 16.3146,11.6186,-0.1779251
 	attPos = 0,0,0
 	attPos0 = 8.671413,-26.87099,8.671412
-	rot = -0.2705982,0.6532816,0.6532815,-0.270598
+	rot = -0.2705982,0.6532816,0.6532815,-0.2705979
 	attRot = 0,0,0,1
 	attRot0 = -1.896608E-07,0.9238796,-4.214685E-08,-0.3826835
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 6
 	dstg = 4
-	sidx = 14
+	sidx = 4
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5904,10 +7160,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.100027
-		height = 10.34518
+		scaleFactor = 4.100032
+		height = 10.34517
 		stagingEnabled = True
-		towerRot = 0.2705982,-0.6532815,-0.6532815,-0.2705979
+		towerRot = 0.2705982,-0.6532816,-0.6532815,-0.2705979
 		EVENTS
 		{
 			Release
@@ -6046,10 +7302,10 @@ PART
 {
 	part = launchClamp1_4293426444
 	partName = Part
-	pos = -1.057877,11.58895,-16.4008
+	pos = -1.057877,11.58895,-16.40082
 	attPos = 0,0,0
 	attPos0 = -8.701064,-0.7938538,8.701062
-	rot = 0.2705981,0.6532815,0.6532815,0.270598
+	rot = 0.2705981,0.6532816,0.6532816,0.270598
 	attRot = 0,0,0,1
 	attRot0 = 8.42937E-08,0.9238795,0,0.3826835
 	mir = 1,1,1
@@ -6058,7 +7314,7 @@ PART
 	dstg = 4
 	sidx = 5
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -6079,7 +7335,7 @@ PART
 		name = LaunchClamp
 		isEnabled = True
 		scaleFactor = 4.088281
-		height = 10.31552
+		height = 10.31553
 		stagingEnabled = True
 		towerRot = -0.2705981,-0.6532815,-0.6532815,0.270598
 		EVENTS
@@ -6220,19 +7476,19 @@ PART
 {
 	part = launchClamp1_4293235492
 	partName = Part
-	pos = 16.34425,11.58895,-16.4008
+	pos = 16.34425,11.58895,-16.40082
 	attPos = 0,0,0
 	attPos0 = 8.701065,-0.7938538,8.701062
-	rot = -0.2705982,0.6532816,0.6532815,-0.270598
+	rot = -0.2705982,0.6532816,0.6532815,-0.2705979
 	attRot = 0,0,0,1
 	attRot0 = -1.47514E-07,0.9238796,-4.214685E-08,-0.3826835
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 6
 	dstg = 4
-	sidx = 14
+	sidx = 5
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -6253,9 +7509,9 @@ PART
 		name = LaunchClamp
 		isEnabled = True
 		scaleFactor = 4.088281
-		height = 10.31552
+		height = 10.31553
 		stagingEnabled = True
-		towerRot = 0.2705982,-0.6532815,-0.6532815,-0.270598
+		towerRot = 0.2705982,-0.6532816,-0.6532815,-0.2705979
 		EVENTS
 		{
 			Release
@@ -6394,10 +7650,10 @@ PART
 {
 	part = launchClamp1_4293425978
 	partName = Part
-	pos = -1.043659,11.60316,-24.04053
+	pos = -1.043659,11.60316,-24.04054
 	attPos = 0,0,0
 	attPos0 = -8.686846,-8.433577,8.686845
-	rot = 0.2705982,0.6532816,0.6532815,0.2705981
+	rot = 0.2705981,0.6532816,0.6532815,0.2705981
 	attRot = 0,0,0,1
 	attRot0 = 8.42937E-08,0.9238796,-4.214685E-08,0.3826835
 	mir = 1,1,1
@@ -6406,7 +7662,7 @@ PART
 	dstg = 4
 	sidx = 6
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -6426,10 +7682,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.093904
+		scaleFactor = 4.093913
 		height = 10.32974
 		stagingEnabled = True
-		towerRot = -0.2705981,-0.6532815,-0.6532815,0.270598
+		towerRot = -0.2705981,-0.6532816,-0.6532815,0.2705981
 		EVENTS
 		{
 			Release
@@ -6568,19 +7824,19 @@ PART
 {
 	part = launchClamp1_4293235038
 	partName = Part
-	pos = 16.33003,11.60317,-24.04053
+	pos = 16.33003,11.60317,-24.04054
 	attPos = 0,0,0
 	attPos0 = 8.686846,-8.433577,8.686844
-	rot = -0.2705982,0.6532816,0.6532815,-0.270598
+	rot = -0.2705982,0.6532816,0.6532815,-0.2705979
 	attRot = 0,0,0,1
 	attRot0 = -1.053671E-07,0.9238796,-4.214685E-08,-0.3826835
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 6
 	dstg = 4
-	sidx = 14
+	sidx = 6
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -6600,10 +7856,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.093904
-		height = 10.32974
+		scaleFactor = 4.093917
+		height = 10.32975
 		stagingEnabled = True
-		towerRot = 0.2705981,-0.6532815,-0.6532815,-0.270598
+		towerRot = 0.2705982,-0.6532816,-0.6532815,-0.2705979
 		EVENTS
 		{
 			Release
@@ -6742,10 +7998,10 @@ PART
 {
 	part = launchClamp1_4293425070
 	partName = Part
-	pos = -1.038022,11.6088,6.746681
+	pos = -1.038023,11.6088,6.746666
 	attPos = 0,0,0
 	attPos0 = -8.681209,-19.9464,8.681208
-	rot = 0.2705982,0.6532815,0.6532815,0.2705981
+	rot = 0.2705981,0.6532815,0.6532815,0.2705981
 	attRot = 0,0,0,1
 	attRot0 = 8.42937E-08,0.9238795,0,0.3826835
 	mir = 1,1,1
@@ -6754,7 +8010,7 @@ PART
 	dstg = 4
 	sidx = 7
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -6774,10 +8030,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.096145
+		scaleFactor = 4.096148
 		height = 10.33538
 		stagingEnabled = True
-		towerRot = -0.2705982,-0.6532815,-0.6532815,0.2705981
+		towerRot = -0.2705981,-0.6532815,-0.6532815,0.2705981
 		EVENTS
 		{
 			Release
@@ -6916,19 +8172,19 @@ PART
 {
 	part = launchClamp1_4293234572
 	partName = Part
-	pos = 16.3244,11.6088,6.746681
+	pos = 16.3244,11.6088,6.746666
 	attPos = 0,0,0
 	attPos0 = 8.68121,-19.9464,8.681208
-	rot = -0.2705982,0.6532816,0.6532815,-0.270598
+	rot = -0.2705982,0.6532816,0.6532815,-0.2705979
 	attRot = 0,0,0,1
 	attRot0 = -1.896608E-07,0.9238796,-4.214685E-08,-0.3826835
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 6
 	dstg = 4
-	sidx = 14
+	sidx = 7
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -6948,10 +8204,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.096145
+		scaleFactor = 4.096148
 		height = 10.33538
 		stagingEnabled = True
-		towerRot = 0.2705982,-0.6532815,-0.6532815,-0.2705979
+		towerRot = 0.2705982,-0.6532816,-0.6532815,-0.2705979
 		EVENTS
 		{
 			Release
@@ -7090,10 +8346,10 @@ PART
 {
 	part = launchClamp1_4293426898
 	partName = Part
-	pos = -1.03097,11.61586,13.27633
+	pos = -1.03097,11.61586,13.27632
 	attPos = 0,0,0
 	attPos0 = -8.674157,-13.41675,8.674156
-	rot = 0.2705982,0.6532815,0.6532815,0.2705981
+	rot = 0.2705981,0.6532815,0.6532815,0.2705981
 	attRot = 0,0,0,1
 	attRot0 = 8.42937E-08,0.9238795,0,0.3826835
 	mir = 1,1,1
@@ -7102,7 +8358,7 @@ PART
 	dstg = 4
 	sidx = 8
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7122,10 +8378,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.098938
+		scaleFactor = 4.09894
 		height = 10.34243
 		stagingEnabled = True
-		towerRot = -0.2705982,-0.6532815,-0.6532815,0.2705981
+		towerRot = -0.2705981,-0.6532815,-0.6532815,0.2705981
 		EVENTS
 		{
 			Release
@@ -7264,19 +8520,19 @@ PART
 {
 	part = launchClamp1_4293234118
 	partName = Part
-	pos = 16.31734,11.61586,13.27633
+	pos = 16.31734,11.61586,13.27632
 	attPos = 0,0,0
 	attPos0 = 8.674158,-13.41675,8.674156
-	rot = -0.2705982,0.6532816,0.6532815,-0.270598
+	rot = -0.2705982,0.6532816,0.6532815,-0.2705979
 	attRot = 0,0,0,1
 	attRot0 = -1.896608E-07,0.9238796,-4.214685E-08,-0.3826835
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 6
 	dstg = 4
-	sidx = 14
+	sidx = 8
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7299,7 +8555,7 @@ PART
 		scaleFactor = 4.098939
 		height = 10.34243
 		stagingEnabled = True
-		towerRot = 0.2705982,-0.6532815,-0.6532815,-0.2705979
+		towerRot = 0.2705982,-0.6532816,-0.6532815,-0.2705979
 		EVENTS
 		{
 			Release
@@ -7438,10 +8694,10 @@ PART
 {
 	part = launchClamp1_4293424616
 	partName = Part
-	pos = -1.028924,11.6179,20.25324
+	pos = -1.028924,11.6179,20.25323
 	attPos = 0,0,0
 	attPos0 = -8.672112,-6.43984,8.672112
-	rot = 0.2705982,0.6532815,0.6532815,0.2705981
+	rot = 0.2705981,0.6532815,0.6532815,0.2705981
 	attRot = 0,0,0,1
 	attRot0 = 8.42937E-08,0.9238795,0,0.3826835
 	mir = 1,1,1
@@ -7450,7 +8706,7 @@ PART
 	dstg = 4
 	sidx = 9
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7470,10 +8726,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.099743
+		scaleFactor = 4.099749
 		height = 10.34448
 		stagingEnabled = True
-		towerRot = -0.2705982,-0.6532815,-0.6532815,0.2705981
+		towerRot = -0.2705981,-0.6532815,-0.6532815,0.2705981
 		EVENTS
 		{
 			Release
@@ -7612,19 +8868,19 @@ PART
 {
 	part = launchClamp1_4293233664
 	partName = Part
-	pos = 16.3153,11.6179,20.25324
+	pos = 16.3153,11.6179,20.25323
 	attPos = 0,0,0
 	attPos0 = 8.672112,-6.43984,8.672111
-	rot = -0.2705982,0.6532816,0.6532815,-0.270598
+	rot = -0.2705982,0.6532816,0.6532815,-0.2705979
 	attRot = 0,0,0,1
 	attRot0 = -1.896608E-07,0.9238796,-4.214685E-08,-0.3826835
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 6
 	dstg = 4
-	sidx = 14
+	sidx = 9
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7644,10 +8900,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.099743
-		height = 10.34448
+		scaleFactor = 4.099749
+		height = 10.34447
 		stagingEnabled = True
-		towerRot = 0.2705982,-0.6532815,-0.6532815,-0.2705979
+		towerRot = 0.2705982,-0.6532816,-0.6532815,-0.2705979
 		EVENTS
 		{
 			Release
@@ -7786,10 +9042,10 @@ PART
 {
 	part = launchClamp1_4293424162
 	partName = Part
-	pos = -1.037436,11.60939,32.40362
+	pos = -1.037436,11.60939,32.40361
 	attPos = 0,0,0
 	attPos0 = -8.680623,5.710537,8.680621
-	rot = 0.2705982,0.6532815,0.6532815,0.2705981
+	rot = 0.2705981,0.6532815,0.6532815,0.2705981
 	attRot = 0,0,0,1
 	attRot0 = 8.42937E-08,0.9238795,0,0.3826835
 	mir = 1,1,1
@@ -7798,7 +9054,7 @@ PART
 	dstg = 4
 	sidx = 10
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7818,10 +9074,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.096379
+		scaleFactor = 4.096376
 		height = 10.33597
 		stagingEnabled = True
-		towerRot = -0.2705982,-0.6532815,-0.6532815,0.2705981
+		towerRot = -0.2705981,-0.6532815,-0.6532815,0.2705981
 		EVENTS
 		{
 			Release
@@ -7960,19 +9216,19 @@ PART
 {
 	part = launchClamp1_4293233210
 	partName = Part
-	pos = 16.32381,11.60939,32.40362
+	pos = 16.32381,11.60939,32.40361
 	attPos = 0,0,0
 	attPos0 = 8.680624,5.710537,8.680622
-	rot = -0.2705982,0.6532816,0.6532815,-0.270598
+	rot = -0.2705982,0.6532816,0.6532815,-0.2705979
 	attRot = 0,0,0,1
 	attRot0 = -1.896608E-07,0.9238796,-4.214685E-08,-0.3826835
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 6
 	dstg = 4
-	sidx = 14
+	sidx = 10
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7992,10 +9248,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.096379
-		height = 10.33596
+		scaleFactor = 4.096376
+		height = 10.33597
 		stagingEnabled = True
-		towerRot = 0.2705982,-0.6532815,-0.6532815,-0.2705979
+		towerRot = 0.2705982,-0.6532816,-0.6532815,-0.2705979
 		EVENTS
 		{
 			Release
@@ -8134,10 +9390,10 @@ PART
 {
 	part = launchClamp1_4293427364
 	partName = Part
-	pos = -1.028672,11.61815,38.77593
+	pos = -1.028672,11.61815,38.77592
 	attPos = 0,0,0
 	attPos0 = -8.671859,12.08285,8.671858
-	rot = 0.2705982,0.6532815,0.6532815,0.2705981
+	rot = 0.2705981,0.6532815,0.6532815,0.2705981
 	attRot = 0,0,0,1
 	attRot0 = 8.42937E-08,0.9238795,0,0.3826835
 	mir = 1,1,1
@@ -8146,7 +9402,7 @@ PART
 	dstg = 4
 	sidx = 11
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8166,10 +9422,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.099849
+		scaleFactor = 4.099854
 		height = 10.34473
 		stagingEnabled = True
-		towerRot = -0.2705982,-0.6532815,-0.6532815,0.2705981
+		towerRot = -0.2705981,-0.6532815,-0.6532815,0.2705981
 		EVENTS
 		{
 			Release
@@ -8308,19 +9564,19 @@ PART
 {
 	part = launchClamp1_4293232756
 	partName = Part
-	pos = 16.31505,11.61815,38.77593
+	pos = 16.31505,11.61815,38.77592
 	attPos = 0,0,0
 	attPos0 = 8.67186,12.08285,8.671858
-	rot = -0.2705982,0.6532816,0.6532815,-0.270598
+	rot = -0.2705982,0.6532816,0.6532815,-0.2705979
 	attRot = 0,0,0,1
 	attRot0 = -1.896608E-07,0.9238796,-4.214685E-08,-0.3826835
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 6
 	dstg = 4
-	sidx = 14
+	sidx = 11
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8340,10 +9596,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.099849
+		scaleFactor = 4.099848
 		height = 10.34473
 		stagingEnabled = True
-		towerRot = 0.2705982,-0.6532815,-0.6532815,-0.2705979
+		towerRot = 0.2705982,-0.6532816,-0.6532815,-0.2705979
 		EVENTS
 		{
 			Release
@@ -8485,7 +9741,7 @@ PART
 	pos = -1.028414,11.61841,43.93875
 	attPos = 0,0,0
 	attPos0 = -8.671601,17.24566,8.6716
-	rot = 0.2705982,0.6532815,0.6532815,0.2705981
+	rot = 0.2705981,0.6532815,0.6532815,0.2705981
 	attRot = 0,0,0,1
 	attRot0 = 8.42937E-08,0.9238795,0,0.3826835
 	mir = 1,1,1
@@ -8494,7 +9750,7 @@ PART
 	dstg = 4
 	sidx = 12
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8514,10 +9770,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.09995
-		height = 10.34498
+		scaleFactor = 4.099951
+		height = 10.34499
 		stagingEnabled = True
-		towerRot = -0.2705982,-0.6532815,-0.6532815,0.2705981
+		towerRot = -0.2705981,-0.6532815,-0.6532815,0.2705981
 		EVENTS
 		{
 			Release
@@ -8659,16 +9915,16 @@ PART
 	pos = 16.31479,11.61841,43.93875
 	attPos = 0,0,0
 	attPos0 = 8.671602,17.24566,8.6716
-	rot = -0.2705982,0.6532816,0.6532815,-0.270598
+	rot = -0.2705982,0.6532816,0.6532815,-0.2705979
 	attRot = 0,0,0,1
 	attRot0 = -1.896608E-07,0.9238796,-4.214685E-08,-0.3826835
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 6
 	dstg = 4
-	sidx = 14
+	sidx = 12
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8688,10 +9944,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.09995
-		height = 10.34498
+		scaleFactor = 4.099951
+		height = 10.34499
 		stagingEnabled = True
-		towerRot = 0.2705982,-0.6532815,-0.6532815,-0.2705979
+		towerRot = 0.2705982,-0.6532816,-0.6532815,-0.2705979
 		EVENTS
 		{
 			Release
@@ -8833,7 +10089,7 @@ PART
 	pos = -1.045731,11.60109,48.38612
 	attPos = 0,0,0
 	attPos0 = -8.688918,21.69303,8.688917
-	rot = 0.2705982,0.6532815,0.6532815,0.2705981
+	rot = 0.2705981,0.6532815,0.6532815,0.2705981
 	attRot = 0,0,0,1
 	attRot0 = 8.42937E-08,0.9238795,0,0.3826835
 	mir = 1,1,1
@@ -8842,7 +10098,7 @@ PART
 	dstg = 4
 	sidx = 13
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8862,10 +10118,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.093081
+		scaleFactor = 4.093087
 		height = 10.32767
 		stagingEnabled = True
-		towerRot = -0.2705982,-0.6532815,-0.6532815,0.2705981
+		towerRot = -0.2705981,-0.6532815,-0.6532815,0.2705981
 		EVENTS
 		{
 			Release
@@ -9007,16 +10263,16 @@ PART
 	pos = 16.33211,11.60109,48.38611
 	attPos = 0,0,0
 	attPos0 = 8.688919,21.69303,8.688916
-	rot = -0.2705982,0.6532816,0.6532815,-0.270598
+	rot = -0.2705982,0.6532816,0.6532815,-0.2705979
 	attRot = 0,0,0,1
 	attRot0 = -1.896608E-07,0.9238796,-4.214685E-08,-0.3826835
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 6
 	dstg = 4
-	sidx = 14
+	sidx = 13
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9036,10 +10292,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.093081
+		scaleFactor = 4.093093
 		height = 10.32767
 		stagingEnabled = True
-		towerRot = 0.2705982,-0.6532815,-0.6532815,-0.2705979
+		towerRot = 0.2705982,-0.6532816,-0.6532815,-0.2705979
 		EVENTS
 		{
 			Release
@@ -9181,7 +10437,7 @@ PART
 	pos = -1.039621,11.6072,53.01569
 	attPos = 0,0,0
 	attPos0 = -8.682808,26.3226,8.682808
-	rot = 0.2705982,0.6532815,0.6532815,0.2705981
+	rot = 0.2705981,0.6532815,0.6532815,0.2705981
 	attRot = 0,0,0,1
 	attRot0 = 8.42937E-08,0.9238795,0,0.3826835
 	mir = 1,1,1
@@ -9190,7 +10446,7 @@ PART
 	dstg = 4
 	sidx = 14
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9211,9 +10467,9 @@ PART
 		name = LaunchClamp
 		isEnabled = True
 		scaleFactor = 4.095508
-		height = 10.33378
+		height = 10.33377
 		stagingEnabled = True
-		towerRot = -0.2705982,-0.6532815,-0.6532815,0.2705981
+		towerRot = -0.2705981,-0.6532815,-0.6532815,0.2705981
 		EVENTS
 		{
 			Release
@@ -9355,7 +10611,7 @@ PART
 	pos = 16.32599,11.6072,53.01568
 	attPos = 0,0,0
 	attPos0 = 8.682808,26.3226,8.682807
-	rot = -0.2705982,0.6532816,0.6532815,-0.270598
+	rot = -0.2705982,0.6532816,0.6532815,-0.2705979
 	attRot = 0,0,0,1
 	attRot0 = -1.896608E-07,0.9238796,-4.214685E-08,-0.3826835
 	mir = 1,1,1
@@ -9364,7 +10620,7 @@ PART
 	dstg = 4
 	sidx = 14
 	sqor = 6
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9384,10 +10640,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.095509
-		height = 10.33378
+		scaleFactor = 4.095513
+		height = 10.33377
 		stagingEnabled = True
-		towerRot = 0.2705982,-0.6532815,-0.6532815,-0.2705979
+		towerRot = 0.2705982,-0.6532816,-0.6532815,-0.2705979
 		EVENTS
 		{
 			Release
