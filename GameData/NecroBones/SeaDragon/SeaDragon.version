@@ -1,19 +1,19 @@
 {
-	"NAME"			 : "Real Scale Sea Dragon (ABBV)",
-	"URL"			 : "https://raw.githubusercontent.com/zer0Kerbal/RSSeaDragon/master/RSSeaDragon.version",
-	"DOWNLOAD"		 : "https://github.com/zer0Kerbal/RSSeaDragon/releases/latest",
-	"CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/RSSeaDragon/master/changelog.md",
+	"NAME"			 : "Sea Dragon (SEA)",
+	"URL"			 : "https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/SeaDragon.version",
+	"DOWNLOAD"		 : "https://github.com/zer0Kerbal/SeaDragon/releases/latest",
+	"CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/changelog.md",
 	"GITHUB" :
 	{
 		"USERNAME"	        : "zer0Kerbal",
-		"REPOSITORY"		: "RSSeaDragon",
+		"REPOSITORY"		: "SeaDragon",
 		"ALLOW_PRE_RELEASE" : false
 	},
 	"VERSION" :
 	{
 		"MAJOR" : 0,
 		"MINOR" : 3,
-		"PATCH" : 0,
+		"PATCH" : 1,
 		"BUILD" : 0
 	},
 	"KSP_VERSION" :
@@ -36,7 +36,7 @@
 	},
 	"INSTALL_LOC" :
 	{
-		"NAME" :	  "RSSeaDragon",
-		"DIRECTORY" : "NecroBones/RSSeaDragon"
+		"NAME" :	  "SeaDragon",
+		"DIRECTORY" : "NecroBones/SeaDragon"
 	}
 }
