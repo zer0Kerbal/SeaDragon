@@ -61,7 +61,7 @@
 
 ## Version 0.3.1.0 - `<Archival>` edition
 
-* 2016-04-03
+* 03 Apr 2016
 * Released for Kerbal Space Program 1.1.0
 
 * KSP 1.1 Hotfix
