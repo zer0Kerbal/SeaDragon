@@ -1,0 +1,6 @@
+
+0.1 (2016-03-25) - First test release.
+ - Mostly complete. Using stock procedural fairing system. No ballast tanks. 
+ - Known issue: Fairing "confetti" is rather deadly.
+ - Known issue: Steering authority in upper stage is weak. Already artificially inflated though! (should be worse!)
+
