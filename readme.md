@@ -52,7 +52,7 @@ thrusts, ISPs, dry weights, and so on.
 
 ### Help Wanted
 
-> * Updated to Stock Size with RO/RSS/RP compatibility patches
+> * Updated to be both Stock and RO/RSS/RP compatible
 > * Compatibility patches
 > * Contracts for these glorious parts
 > * Variant Textures
