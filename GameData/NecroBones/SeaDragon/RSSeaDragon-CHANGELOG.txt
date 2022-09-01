@@ -1,4 +1,17 @@
 
+0.2 (2016-03-28) - The Sea-Launch Update.
+ - Increased crash tolerance considerably on all parts, to allow bouncing around in the water.
+ - Added attachment node at bottom of first stage engine to allow attaching the ballast tank. 
+ - Extended first stage tank's lower skirt, and removed extraneous attachment node corresponding to it.
+ - Shortened first stage engine length (and updated sample rocket accordingly), after discovering miscalculation.
+ - Reworked colliders for first and second stage main engines, and first stage tank.
+ - Added ballast tank for sea launches.
+ - Added SPH sample rocket with ballast tank. 
+ - Updated VAB sample rocket to ignite the verniers at launch in the staging.
+ - Added an animated bell extension for the second stage engine, and updated sample rockets to use it (action group 1).
+ - Added custom smoke trail for first stage engine (known issue: runs regardless of air pressure).
+ - Removed smoke trails from upper-stage engine + verniers (hydrogen burns cleanly).
+
 0.1 (2016-03-25) - First test release.
  - Mostly complete. Using stock procedural fairing system. No ballast tanks. 
  - Known issue: Fairing "confetti" is rather deadly.
