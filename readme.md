@@ -182,7 +182,7 @@ parts, config
 [MOD:pages:shd]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
 
 <!--- mod provenance -->
-[MOD:0:dnload]: https://www.dropbox.com/s/85og3xdhark7com/SeaDragon5.rar "SpaceDock"
+[MOD:0:dnload]: http://spacedock.info/mod/440 "SpaceDock"
 [MOD:0:source]: http://ksp.necrobones.com/files/RSSeaDragon/ "Private Server"
 [MOD:0:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
 
