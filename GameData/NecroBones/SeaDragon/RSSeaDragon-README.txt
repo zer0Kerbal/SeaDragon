@@ -50,6 +50,6 @@ http://spacedock.info/mod/440/Real%20Scale%20Sea%20Dragon
 Curse.com (download):
 TBD
 
-This parts pack is being shared under the CC-NC-SA license:
+This parts pack is being shared under the CC-BY-NC-SA license:
 http://creativecommons.org/licenses/by-nc-sa/4.0/
 
