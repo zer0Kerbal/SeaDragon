@@ -42,10 +42,10 @@ via http://game-icons.net/lorc/originals/sea-dragon.html
 
 
 Forum Release-Thread:
-TBD
+forum.kerbalspaceprogram.com/index.php?/topic/134934-RSSeaDragon
 
-Kerbal Stuff (download):
-TBD
+SpaceDock (download):
+http://spacedock.info/mod/440/Real%20Scale%20Sea%20Dragon
 
 Curse.com (download):
 TBD
