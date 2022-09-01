@@ -1,3 +1,7 @@
+0.3 (2016-04-02) - The Sea-Recovery Update.
+ - Increased crash tolerance of first stage engine and tank to 150 m/s to support oceanic crash-landing recovery.
+ - Removed stack attachment node from end of skirt extension on second stage tank, and instead added it to second stage engine.
+ - Added inflatable "recovery flare" to the first stage engine, and updated sample rockets to put it on action group 2.
 
 0.2 (2016-03-28) - The Sea-Launch Update.
  - Increased crash tolerance considerably on all parts, to allow bouncing around in the water.
