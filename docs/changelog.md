@@ -91,7 +91,7 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ## Version 0.3.0.0 - `<Archival>` edition
 
-* 2016-04-02
+* 02 Apr 2016
 * Released for Kerbal Space Program 1.1.0
 
 * The Sea-Recovery Update
@@ -109,7 +109,7 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ## Version 0.2.0.0 - `<Archival>` edition
 
-* 2016-03-28
+* 28 Mar 2016
 * Released for Kerbal Space Program 1.1.0
 
 * The Sea-Launch Update
