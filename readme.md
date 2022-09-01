@@ -46,9 +46,9 @@ thrusts, ISPs, dry weights, and so on.
 
 ---
 
-### YouTube review by [`Kottabos Gaming`](https://forum.kerbalspaceprogram.com/index.php?/profile/36583-*/)
+### YouTube review by [`Connor Hetner`](https://www.youtube.com/channel/UC4BpyUX_WQmStX6GodJFKFA)
 
-[![Kottabos reviews SeaDragon](https://img.youtube.com/vi/Oj1etoybd7E/0.jpg)](https://www.youtube.com/watch?v=Oj1etoybd7E)
+[![KSP: Sea Dragon](https://img.youtube.com/vi/VUnMEwufspo/0.jpg)](https://www.youtube.com/watch?v=VUnMEwufspo)
 
 ### Help Wanted
 
