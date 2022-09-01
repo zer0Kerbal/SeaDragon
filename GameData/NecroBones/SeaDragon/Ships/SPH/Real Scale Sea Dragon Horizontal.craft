@@ -1984,7 +1984,7 @@ PART
 {
 	part = RSSDtankStage2_4294397802
 	partName = Part
-	pos = -7.514242,18.86758,63.39092
+	pos = -7.514242,18.86758,63.3909
 	attPos = 0,0,0
 	attPos0 = 0,-29.3,5.639351E-06
 	rot = 0.7071068,0,0,0.7071068
@@ -2012,9 +2012,7 @@ PART
 	link = launchClamp1_4294045028
 	link = launchClamp1_4294309672
 	link = launchClamp1_4294042048
-	link = RSSDtankStage1_4294340224
 	attN = top,RSSDfairing23m_4294344780
-	attN = bottom,RSSDtankStage1_4294340224
 	attN = engine,RSSDengineStage2_4294368316
 	EVENTS
 	{
@@ -2080,7 +2078,7 @@ PART
 {
 	part = RSSDengineStage2_4294368316
 	partName = Part
-	pos = -7.514242,18.86759,49.59093
+	pos = -7.514242,18.86759,49.5909
 	attPos = 0,0,0
 	attPos0 = 0,-13.8,0
 	rot = 0.7071068,0,0,0.7071068
@@ -2097,6 +2095,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
+	link = RSSDtankStage1_4294340224
+	attN = bottom,RSSDtankStage1_4294340224
 	attN = top,RSSDtankStage2_4294397802
 	EVENTS
 	{
@@ -2401,7 +2401,7 @@ PART
 {
 	part = RSSDengineTVC_4294306950
 	partName = Part
-	pos = -18.97066,18.86759,43.93559
+	pos = -18.97066,18.86759,43.93554
 	attPos = 0,0,0
 	attPos0 = -11.45641,-19.45526,6.854534E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -2672,7 +2672,7 @@ PART
 {
 	part = RSSDengineTVC_4293507504
 	partName = Part
-	pos = -7.514242,7.411139,43.93566
+	pos = -7.514242,7.411131,43.93563
 	attPos = 0,0,0
 	attPos0 = 0,-19.45526,11.45641
 	rot = 0.5000001,0.5000001,0.5000001,0.5000001
@@ -2943,7 +2943,7 @@ PART
 {
 	part = RSSDengineTVC_4293507398
 	partName = Part
-	pos = 3.942169,18.86759,43.93559
+	pos = 3.942169,18.86759,43.93554
 	attPos = 0,0,0
 	attPos0 = 11.45641,-19.45526,-1.698732E-06
 	rot = -3.090862E-08,0.7071068,0.7071068,-3.090862E-08
@@ -3214,7 +3214,7 @@ PART
 {
 	part = RSSDengineTVC_4293507292
 	partName = Part
-	pos = -7.514243,30.324,43.93567
+	pos = -7.514243,30.32401,43.93564
 	attPos = 0,0,0
 	attPos0 = -1.370907E-06,-19.45526,-11.45641
 	rot = -0.5000001,0.5000001,0.5000001,-0.5000001
@@ -3517,7 +3517,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.620894
+		scaleFactor = 4.620893
 		height = 11.65941
 		stagingEnabled = True
 		towerRot = -0.3535541,-0.6123721,-0.6123721,0.353554
@@ -3691,7 +3691,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.620894
+		scaleFactor = 4.620893
 		height = 11.65941
 		stagingEnabled = True
 		towerRot = 0.3535541,-0.612372,-0.6123722,-0.3535539
@@ -3833,7 +3833,7 @@ PART
 {
 	part = launchClamp1_4294311182
 	partName = Part
-	pos = -18.14246,12.73137,65.60986
+	pos = -18.14246,12.73137,65.60985
 	attPos = 0,0,0
 	attPos0 = -10.62821,2.218882,6.136199
 	rot = 0.3535541,0.6123721,0.6123721,0.353554
@@ -3865,7 +3865,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.619075
+		scaleFactor = 4.619074
 		height = 11.65482
 		stagingEnabled = True
 		towerRot = -0.3535541,-0.6123721,-0.6123721,0.353554
@@ -4007,7 +4007,7 @@ PART
 {
 	part = launchClamp1_4294045028
 	partName = Part
-	pos = 3.11397,12.73137,65.60986
+	pos = 3.11397,12.73137,65.60985
 	attPos = 0,0,0
 	attPos0 = 10.62821,2.21888,6.136199
 	rot = -0.3535541,0.6123721,0.6123722,-0.3535539
@@ -4039,7 +4039,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.619075
+		scaleFactor = 4.619074
 		height = 11.65482
 		stagingEnabled = True
 		towerRot = 0.3535541,-0.612372,-0.6123722,-0.3535539
@@ -4181,7 +4181,7 @@ PART
 {
 	part = launchClamp1_4294309672
 	partName = Part
-	pos = -18.17009,12.71544,34.61943
+	pos = -18.17009,12.71544,34.61939
 	attPos = 0,0,0
 	attPos0 = -10.65584,-28.77141,6.152151
 	rot = 0.3535541,0.6123721,0.6123721,0.353554
@@ -4355,7 +4355,7 @@ PART
 {
 	part = launchClamp1_4294042048
 	partName = Part
-	pos = 3.141598,12.71544,34.61943
+	pos = 3.141598,12.71544,34.61939
 	attPos = 0,0,0
 	attPos0 = 10.65584,-28.77141,6.15215
 	rot = -0.3535541,0.6123721,0.6123722,-0.3535539
@@ -4387,7 +4387,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.612754
+		scaleFactor = 4.612753
 		height = 11.63889
 		stagingEnabled = True
 		towerRot = 0.3535541,-0.612372,-0.6123722,-0.3535539
@@ -4529,9 +4529,9 @@ PART
 {
 	part = RSSDtankStage1_4294340224
 	partName = Part
-	pos = -7.514242,18.86758,21.0909
+	pos = -7.514242,18.86759,21.09087
 	attPos = 0,0,0
-	attPos0 = 0,-42.30001,1.227856E-06
+	attPos0 = 0,-28.50002,1.490118E-06
 	rot = 0.7071068,0,0,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -4549,7 +4549,7 @@ PART
 	link = launchClamp1_4294040342
 	link = launchClamp1_4294040162
 	link = RSSDengineStage1_4294506860
-	attN = top,RSSDtankStage2_4294397802
+	attN = top,RSSDengineStage2_4294368316
 	attN = engine,RSSDengineStage1_4294506860
 	EVENTS
 	{
@@ -4715,7 +4715,7 @@ PART
 {
 	part = launchClamp1_4294040342
 	partName = Part
-	pos = -16.18563,10.19619,9.480194
+	pos = -16.18563,10.1962,9.480171
 	attPos = 0,0,0
 	attPos0 = -8.671381,-11.61069,8.67138
 	rot = 0.2705981,0.6532815,0.6532816,0.2705981
@@ -4747,8 +4747,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 3.536276
-		height = 8.922764
+		scaleFactor = 3.536291
+		height = 8.922772
 		stagingEnabled = True
 		towerRot = -0.2705981,-0.6532815,-0.6532816,0.2705981
 		EVENTS
@@ -4889,7 +4889,7 @@ PART
 {
 	part = launchClamp1_4294040162
 	partName = Part
-	pos = 1.157139,10.19619,9.480194
+	pos = 1.157139,10.1962,9.480171
 	attPos = 0,0,0
 	attPos0 = 8.671381,-11.61069,8.671381
 	rot = -0.2705981,0.6532815,0.6532815,-0.270598
@@ -4921,8 +4921,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 3.536276
-		height = 8.922764
+		scaleFactor = 3.536291
+		height = 8.922772
 		stagingEnabled = True
 		towerRot = 0.2705981,-0.6532815,-0.6532815,-0.270598
 		EVENTS
@@ -5063,7 +5063,7 @@ PART
 {
 	part = RSSDengineStage1_4294506860
 	partName = Part
-	pos = -7.514242,18.86759,1.490883
+	pos = -7.514242,18.8676,1.49086
 	attPos = 0,0,0
 	attPos0 = 0,-19.60001,4.291551E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -5091,6 +5091,108 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		stagingEnabled = True
+		deployPercent_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Toggle
+				guiName = Inflate Recovery Flare
+				category = Toggle
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = Custom02
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		stagingEnabled = True
+		EVENTS
+		{
+			MakeReference
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Control From Here
+				guiName = Control From Here
+				category = Control From Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RenameVessel
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = True
+				guiIcon = Rename Vessel
+				guiName = Rename Vessel
+				category = Rename Vessel
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
 	}
 	MODULE
 	{
@@ -5328,12 +5430,140 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = MechJebCore
+		isEnabled = True
+		running = True
+		stagingEnabled = True
+		running_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnOrbitProgradeAction
+			{
+				actionGroup = None
+			}
+			OnOrbitRetrogradeAction
+			{
+				actionGroup = None
+			}
+			OnOrbitNormalAction
+			{
+				actionGroup = None
+			}
+			OnOrbitAntinormalAction
+			{
+				actionGroup = None
+			}
+			OnOrbitRadialInAction
+			{
+				actionGroup = None
+			}
+			OnOrbitRadialOutAction
+			{
+				actionGroup = None
+			}
+			OnKillRotationAction
+			{
+				actionGroup = None
+			}
+			OnDeactivateSmartASSAction
+			{
+				actionGroup = None
+			}
+			OnPanicAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronOffAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronKeepVertAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronZeroSpeedAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronPlusOneSpeedAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronMinusOneSpeedAction
+			{
+				actionGroup = None
+			}
+			OnTranslatronToggleHSAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+		Log
+		{
+			flight = 0
+		}
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 25
+		maxAmount = 25
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
 }
 PART
 {
 	part = RSSDtankBallast_4294505758
 	partName = Part
-	pos = -7.514242,18.86759,-24.30915
+	pos = -7.514242,18.8676,-24.3092
 	attPos = 0,0,0
 	attPos0 = 0,-25.80002,3.075602E-06
 	rot = 0.7071068,0,0,0.7071068
@@ -5752,7 +5982,7 @@ PART
 {
 	part = launchClamp1_4294396758
 	partName = Part
-	pos = -23.52903,14.57644,-29.25608
+	pos = -23.52903,14.57645,-29.25615
 	attPos = 0,0,0
 	attPos0 = -16.01479,-4.94693,4.291152
 	rot = 0.4304594,0.5609855,0.5609856,0.4304593
@@ -5784,8 +6014,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 5.441181
-		height = 13.72915
+		scaleFactor = 5.441151
+		height = 13.72916
 		stagingEnabled = True
 		towerRot = -0.4304594,-0.5609855,-0.5609856,0.4304593
 		EVENTS
@@ -5926,7 +6156,7 @@ PART
 {
 	part = launchClamp1_4294396576
 	partName = Part
-	pos = 8.500547,14.57643,-29.25608
+	pos = 8.500547,14.57644,-29.25615
 	attPos = 0,0,0
 	attPos0 = 16.01479,-4.94693,4.291152
 	rot = -0.4304595,0.5609856,0.5609856,-0.4304593
@@ -5958,8 +6188,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 5.441177
-		height = 13.72914
+		scaleFactor = 5.441147
+		height = 13.72915
 		stagingEnabled = True
 		towerRot = 0.4304595,-0.5609856,-0.5609856,-0.4304593
 		EVENTS
