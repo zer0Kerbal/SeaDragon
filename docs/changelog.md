@@ -23,9 +23,9 @@ CC BY-ND 4.0 by zer0Kerbal
 | spacedock  | (https://spacedock.info/mod/440)                                  |
 | ckan       | SeaDragon                                                         |
 
-## Version 0.3.4.0 - `<Archival>` edition
+## Version 0.3.4.0-release - `<Archival>` edition
 
-* 2016-07-12
+* 12 Jul 2016
 * Released for Kerbal Space Program 1.9.1
 
 * Tweak
@@ -39,9 +39,9 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
-## Version 0.3.3.0 - `<Archival>` edition
+## Version 0.3.3.0-release - `<Archival>` edition
 
-* 2016-05-11
+* 11 Jun 2016
 * Released for Kerbal Space Program 1.1.3
 
 * Minor hotfix
@@ -55,9 +55,9 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
-## Version 0.3.2.0 - `<Archival>` edition
+## Version 0.3.2.0-release - `<Archival>` edition
 
-* 2016-04-22
+* 22 Apr 2016
 * Released for Kerbal Space Program 1.1.2
 
 * Tweaks
@@ -72,7 +72,7 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
-## Version 0.3.1.0 - `<Archival>` edition
+## Version 0.3.1.0-release - `<Archival>` edition
 
 * 03 Apr 2016
 * Released for Kerbal Space Program 1.1.0
@@ -89,7 +89,7 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
-## Version 0.3.0.0 - `<Archival>` edition
+## Version 0.3.0.0-release - `<Archival>` edition
 
 * 02 Apr 2016
 * Released for Kerbal Space Program 1.1.0
@@ -107,7 +107,7 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
-## Version 0.2.0.0 - `<Archival>` edition
+## Version 0.2.0.0-release - `<Archival>` edition
 
 * 28 Mar 2016
 * Released for Kerbal Space Program 1.1.0
@@ -133,7 +133,7 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
-## Version 0.1.0.0 - `<Archival>` edition
+## Version 0.1.0.0-release - `<Archival>` edition
 
 * 25 Mar 2016
 * Released for Kerbal Space Program 1.0.5
