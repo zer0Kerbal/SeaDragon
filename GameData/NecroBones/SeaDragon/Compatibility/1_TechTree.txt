@@ -1,0 +1,59 @@
+@TechTree:HAS[!RDnode[*]:HAS[#id[seaDragonRocketry]]]:FOR[RSSDTree]:NEEDS[!CommunityTechTree&!SpaceYTree&!RSBTechTree]
+{
+	// Attach the node to STOCK tech tree.
+
+	RDNode
+	{
+		id = seaDragonRocketry
+		title = Sea Dragon Rocketry
+		description = When "big" just doesn't cut it, go with a Sea Dragon!
+		cost = 5000
+		hideEmpty = False
+		nodeName = seaDragonRocketry
+		anyToUnlock = False
+		icon = RDicon_rocketry-experimental
+		pos = -927,1400,-1
+		scale = 0.6
+
+		Parent
+		{
+			parentID = highPerformanceFuelSystems
+			lineFrom = RIGHT
+			lineTo = LEFT
+		}
+		Parent
+		{
+			parentID = veryHeavyRocketry
+			lineFrom = RIGHT
+			lineTo = LEFT
+		}
+	}
+}
+
+@TechTree:HAS[!RDnode[*]:HAS[#id[seaDragonRocketry]]]:FOR[RSSDTree]:NEEDS[CommunityTechTree|SpaceYTree|RSBTechTree]
+{
+	// Attach the node to colossalRocketry
+
+	RDNode
+	{
+		id = seaDragonRocketry
+		title = Sea Dragon Rocketry
+		description = When "big" just doesn't cut it, go with a Sea Dragon!
+		cost = 5000
+		hideEmpty = False
+		nodeName = seaDragonRocketry
+		anyToUnlock = True
+		icon = RDicon_rocketry-experimental
+		pos = -354,1400,-1
+		scale = 0.6
+
+		Parent
+		{
+			parentID = colossalRocketry
+			lineFrom = RIGHT
+			lineTo = LEFT
+		}
+	}
+}
+
+
