@@ -19,27 +19,94 @@
 
 * Adoption by zer0Kerbal
 
-  * closes #30 - Part Localization
-  * closes #13 - English <us-en.cfg>
-  * closes #12 - Localization - Master
+### Part Localization
 
-  * closes #11 - Update License
+* create agency
+* run localizer
+* Localize
+* closes #30 - Part Localization
+* closes #13 - English <us-en.cfg>
+* closes #12 - Localization - Master
 
-  * closes #10 - Create <SeaDragon.cfg>
+### Update License
 
-  * closes #9 - Part Asset Updates
+* Updated License: CC BY-SA 4.0
+  * was: CC BY 4.0
+* closes #11 - Update License
 
+### Hero logo
+
+* Create
+  * Hero.png
+* closes #6 - Create HeroLogo.png
+
+### Add localized tags to parts
+
+* Add
+  * <SeaDragon.cfg> v1.0.0.0
+    * adds localized tags to parts
+* closes #10 - Create <SeaDragon.cfg>
+
+### Localization
+
+* Create
+  * Localization/
+    * <en-us.cfg>
+    * [readme.md] v2.1.2.0
+    * [quickstart.md] v1.0.1.1
+* closes #8 - Create Localization directory and contents
+
+### Asset Updates
+
+* create Assets/ folder
+* convert from mesh to MODEL
+* rename
+  * models to unique names
+  * textures to unique names
+* update
+  * model pointers (.png et al to .dds)
+  * model texture pointers to new names
+* relocate assets to Assets/
+* eliminate
+  * duplicate textures
+  * duplicate models
+* size reduction
   * <RSSDflameParticle02.mbm> --> <RSSDflameParticle02.png>
     * 193kb --> 27kb
   * <RSSDsmokeParticle02.mbm> --> <RSSDsmokeParticle02.png>
     * 257kb --> 19kb
-  * <RSBengine.wav> --> <RSBengine.ogg>
-    * 518kb --> 69kb
-  * <RSBengine2.wav> --> <RSBengine2.ogg>
-    * 1.531mb --> 98kb
+* relocate part.cfg to Parts/
+* closes #9 - Part Asset Updates
 
-2.43mb --> 210kb
+### Sound Asset Updates
 
+* Convert
+  * from `wav` to `ogg`
+    * <RSBengine.wav> --> <RSBengine.ogg>
+      * 518kb --> 69kb
+    * <RSBengine2.wav> --> <RSBengine2.ogg>
+      * 1.531mb --> 98kb
+* 2.43mb --> 210kb
+* closes #46 - Sound Asset Updates
+
+Create Thumbs
+### Create Thumbs
+
+* Create
+  * @thumbs/
+  * add thumbnails
+* closes #47 - Create Thumbs
+
+### ghostparts
+
+* Create
+  * [ghostparts.cfg]
+  * this patch which will go away
+* closes #48 - ghostparts
+
+### Parts 0.3.99.0
+
+* Update file names
   * <RSSDtankStage1.cfg> --> <sea-tankStage1.cfg>
   * <RSSDtankStage2.cfg> --> <sea-tankStage2.cfg>
   * <RSSDtankStage3.cfg> --> <sea-tankStage3.cfg>
@@ -48,15 +115,26 @@
   * <RSSDengineTVC.cfg> --> <sea-engineTVC.cfg>
   * <RSSDfairing23m.cfg> --> <sea-fairing23m.cfg>
   * <RSSDtankBallast.cfg> --> <sea-tankBallast.cfg>
+* lint
 
-  * closes #8 - Create Localization directory and contents
+### docs/
 
-  * closes #6 - Create HeroLogo.png
-
-  * closes #5 - Create GitHub Pages
-
-
-KSP_VERSION_MAX
+* Update
+  * <SeaDragon.version>
+    * remove
+    * [KSP_VERSION_MAX]
+* Add
+  * [`_config.yml`]
+  * [Attribution.md] v1.0.7.1
+  * [ManualInstallation.md] v1.1.8.0
+  * [404.md] v1.0.3.2
+  * [LegalMumboJumbo.md] v1.0.5.1
+  * [Localizations.md] v1.1.7.0
+  * [Marketing.md] v1.0.1.0
+  * [Notices.md] v1.0.1.0
+  * [PartsCatalog.md] v1.1.4.1
+  * [Why.md] v1.1.0.0
+* closes #5 - Create GitHub Pages
 
 ### Status 0.3.99.0
 
