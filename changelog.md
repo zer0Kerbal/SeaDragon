@@ -89,8 +89,7 @@
 * 2.43mb --> 210kb
 * closes #46 - Sound Asset Updates
 
-Create Thumbs
-### Create Thumbs
+### Thumbnails
 
 * Create
   * @thumbs/
@@ -135,6 +134,16 @@ Create Thumbs
   * [PartsCatalog.md] v1.1.4.1
   * [Why.md] v1.1.0.0
 * closes #5 - Create GitHub Pages
+
+### Compatibility 0.3.99.0
+
+* rename Patches/ --> Compatibility/
+
+### Config 0.3.99.0
+
+* Resources
+* <Category.cfg> v1.4.0.0
+  * update links and flavor text
 
 ### Status 0.3.99.0
 
