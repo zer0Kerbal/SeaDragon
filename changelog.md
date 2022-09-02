@@ -2,13 +2,51 @@
   
 | modName    | Sea Dragon (SEA)                                                  |
 | ---------- | ----------------------------------------------------------------- |
-| license    | CC-BY-NC-SA-4.0                                                   |
+| license    | CC-BY-SA-4.0                                                      |
 | author     | NecroBones and zer0Kerbal                                         |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/209579-*/) |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/SeaDragon)              |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/SeaDragon)            |
 | spacedock  | (https://spacedock.info/mod/440)                                  |
 | ckan       | SeaDragon                                                         |
+
+## Version 0.3.99.0-adoption - `<Thank you NecroBones>` edition
+
+* 01 Sep 2016
+* Released for Kerbal Space Program 1.12.3
+
+### Summary 0.3.99.0
+
+* Adoption by zer0Kerbal
+
+  * closes #30 - Part Localization
+  * closes #13 - English <us-en.cfg>
+  * closes #12 - Localization - Master
+
+  * closes #11 - Update License
+
+  * closes #10 - Create <SeaDragon.cfg>
+
+  * closes #9 - Part Asset Updates
+
+  * closes #8 - Create Localization directory and contents
+
+  * closes #6 - Create HeroLogo.png
+
+  * closes #5 - Create GitHub Pages
+
+
+KSP_VERSION_MAX
+
+### Status 0.3.99.0
+
+* Issues
+  * closes #1 - SeaDragon (SEA) 0.3.99.0-adoption `<Thank you NecroBones>` edition
+  * closes #2 - 0.3.99.0 Create Legal Mumbo Jumbo
+  * closes #3 - 0.3.99.0 Create Documentation
+  * closes #4 - 0.3.99.0 Create Social Media Presence
+
+---
 
 ## Version 0.3.4.0-release - `<Archival>` edition
 
