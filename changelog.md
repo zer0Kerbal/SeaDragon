@@ -29,6 +29,15 @@
 
   * closes #9 - Part Asset Updates
 
+  * <RSSDtankStage1.cfg> --> <sea-tankStage1.cfg>
+  * <RSSDtankStage2.cfg> --> <sea-tankStage2.cfg>
+  * <RSSDtankStage3.cfg> --> <sea-tankStage3.cfg>
+  * <RSSDengineStage1.cfg> --> <sea-engineStage1.cfg>
+  * <RSSDengineStage2.cfg> --> <sea-engineStage2.cfg>
+  * <RSSDengineTVC.cfg> --> <sea-engineTVC.cfg>
+  * <RSSDfairing23m.cfg> --> <sea-fairing23m.cfg>
+  * <RSSDtankBallast.cfg> --> <sea-tankBallast.cfg>
+
   * closes #8 - Create Localization directory and contents
 
   * closes #6 - Create HeroLogo.png
