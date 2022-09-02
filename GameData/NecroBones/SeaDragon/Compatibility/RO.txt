@@ -5,7 +5,7 @@
 // https://forum.kerbalspaceprogram.com/index.php?/topic/134934-1213-real-scale-sea-dragon-034-2016-07-12/&do=findComment&comment=3938154
 
 // tanks
-@PART[RSSDtankStage1|RSSDtankStage2|RSSDtankStage3]:FOR[RSSeaDragon]:NEEDS[RealismOverhaul]
+@PART[sea-tankStage1|sea-tankStage2|sea-tankStage3]:NEEDS[RealismOverhaul]:FOR[SeaDragon]
 {
         %RSSROConfig = True
         %rescaleFactor = 1
@@ -26,7 +26,7 @@
         }
 }
 
-@PART[RSSDtankStage1]:FOR[RSSeaDragon]:NEEDS[RealismOverhaul]
+@PART[sea-tankStage1]:NEEDS[RealismOverhaul]:FOR[SeaDragon]
 {
         // Capacity: 25,613,380 lbs, or 11,618,033 kg: in 5kg units: 2,323,606
         // Should be RP-1 (kerosene) and LOX)
@@ -38,7 +38,7 @@
         @description ^=:$: <color=blue>fill with RP-1 and LOX</color>
 }
 
-@PART[RSSDtankStage2]:FOR[RSSeaDragon]:NEEDS[RealismOverhaul]
+@PART[sea-tankStage2]:NEEDS[RealismOverhaul]:FOR[SeaDragon]
 {
         // Capacity: 9,676,554 lbs, or 4,389,211 kg: in 5kg units: 877,842
         // Should be LH2 and LOX
@@ -50,7 +50,7 @@
         @description ^=:$: <color=blue>fill with LH2 and LOX</color>
 }
 
-@PART[RSSDtankStage3]:FOR[RSSeaDragon]:NEEDS[RealismOverhaul]
+@PART[sea-tankStage3]:NEEDS[RealismOverhaul]:FOR[SeaDragon]
 {
         // 292614 units
         // Should be LH2 and LOX
@@ -63,7 +63,7 @@
 }
 
 // engines
-@PART[RSSDengineStage1|RSSDengineStage2|RSSDengineTVC]:FOR[RealismOverhaul]
+@PART[sea-engineStage1|sea-engineStage2|sea-engineTVC]:FOR[RealismOverhaul]
 {
     @maxTemp = 900
     %skinMaxTemp = 2000
@@ -79,7 +79,7 @@
 }
 
 
-@PART[RSSDengineStage1|RSSDengineTVC]:FOR[RSSeaDragon]:NEEDS[RealismOverhaul]
+@PART[sea-engineStage1|sea-engineTVC]:NEEDS[RealismOverhaul]:FOR[SeaDragon]
 {
         @MODULE[ModuleEnginesFX],0
         {
@@ -108,7 +108,7 @@
         }
 }
 
-@PART[RSSDengineStage2]:FOR[RSSeaDragon]:NEEDS[RealismOverhaul]
+@PART[sea-engineStage2]:NEEDS[RealismOverhaul]:FOR[SeaDragon]
 {
         @MODULE[ModuleEnginesFX],0
         {
@@ -137,13 +137,13 @@
 }
 
 // other
-@PART[RSSDtankBallast]:FOR[RSSeaDragon]:NEEDS[RealismOverhaul]
+@PART[sea-tankBallast]:NEEDS[RealismOverhaul]:FOR[SeaDragon]
 {
     %RSSROConfig = True
   %rescaleFactor = 1
 }
 
-@PART[RSSDfairing23m]:FOR[RSSeaDragon]:NEEDS[RealismOverhaul]
+@PART[sea-fairing23m]:NEEDS[RealismOverhaul]:FOR[SeaDragon]
 {
     %RSSROConfig = True
   %rescaleFactor = 1
