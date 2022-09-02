@@ -29,6 +29,17 @@
 
   * closes #9 - Part Asset Updates
 
+  * <RSSDflameParticle02.mbm> --> <RSSDflameParticle02.png>
+    * 193kb --> 27kb
+  * <RSSDsmokeParticle02.mbm> --> <RSSDsmokeParticle02.png>
+    * 257kb --> 19kb
+  * <RSBengine.wav> --> <RSBengine.ogg>
+    * 518kb --> 69kb
+  * <RSBengine2.wav> --> <RSBengine2.ogg>
+    * 1.531mb --> 98kb
+
+2.43mb --> 210kb
+
   * <RSSDtankStage1.cfg> --> <sea-tankStage1.cfg>
   * <RSSDtankStage2.cfg> --> <sea-tankStage2.cfg>
   * <RSSDtankStage3.cfg> --> <sea-tankStage3.cfg>
