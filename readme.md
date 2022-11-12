@@ -196,7 +196,7 @@ parts, config
 
 <!--- CKAN -->
 [CKAN:img]: https://i.postimg.cc/x8XSVg4R/sj507JC.png "CKAN"
-[ckan]: http://forum.kerbalspaceprogram.com/index.php?/topic/197082-*/ "CKAN"
+[ckan:url]: http://forum.kerbalspaceprogram.com/index.php?/topic/197082-*/ "CKAN"
 [CKAN:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/json/ckan.json "CKAN"
 
 <!--- release links -->
@@ -260,7 +260,7 @@ parts, config
 [reddit]: https://www.reddit.com/user/zer0Kerbal
 [twitch]: https://www.twitch.tv/zer0kerbal
 [twitter]: https://twitter.com/zer0Kerbal
-[youtube]: https://www.youtube.com/channel/UCp9c8IaK4Gjgfj3O9QxrbDw
+[youtube]: https://www.youtube.com/@zer0Kerbal
 
 [NecroBones]: https://forum.kerbalspaceprogram.com/index.php?/profile/105424-*/ "NecroBones"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
