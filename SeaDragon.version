@@ -1,5 +1,5 @@
 {
-	"NAME"			 : "Sea Dragon (SEA)",
+	"NAME"			 : "Sea Dragon (SEA) by NecroBones (aka Orvidius)",
 	"URL"			 : "https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/SeaDragon.version",
 	"DOWNLOAD"		 : "https://github.com/zer0Kerbal/SeaDragon/releases/latest",
 	"CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/changelog.md",
@@ -20,7 +20,7 @@
 	{
 		"MAJOR" : 1,
 		"MINOR" : 12,
-		"PATCH" : 3
+		"PATCH" : 5
 	},
 	"KSP_VERSION_MIN" :
 	{
@@ -32,5 +32,10 @@
 	{
 		"NAME" :	  "SeaDragon",
 		"DIRECTORY" : "NecroBones/SeaDragon"
+	},
+	"INSTALL_LOC" :
+	{
+		"NAME"      : "Ships",
+		"DIRECTORY" : "Ships"
 	}
 }
