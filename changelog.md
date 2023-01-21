@@ -19,6 +19,17 @@
 
 * Adoption by zer0Kerbal
 
+### Archival Releases
+
+* Add
+  * 0.3.4.0-release - `<Archival>` edition
+  * 0.3.3.0-release - `<Archival>` edition
+  * 0.3.2.0-release - `<Archival>` edition
+  * 0.3.1.0-release - `<Archival>` edition
+  * 0.3.0.0-release - `<Archival>` edition
+  * 0.2.0.0-release - `<Archival>` edition
+  * 0.1.0.0-release - `<Archival>` edition
+
 ### Part Localization
 
 * create agency
