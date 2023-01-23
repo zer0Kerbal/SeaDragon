@@ -12,12 +12,16 @@
 
 ## Version 0.3.99.0-adoption - `<Thank you NecroBones>` edition
 
-* 01 Sep 2016
-* Released for Kerbal Space Program 1.12.3
+* Released
+  * 21 Jan 2023
+  * for Kerbal Space Program 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
 
 ### Summary 0.3.99.0
 
-* Adoption by zer0Kerbal
+* Adoption by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Changes 0.3.99.0
 
 ### Archival Releases
 
@@ -30,42 +34,36 @@
   * 0.2.0.0-release - `<Archival>` edition
   * 0.1.0.0-release - `<Archival>` edition
 
-### Part Localization
-
-* create agency
-* run localizer
-* Localize
-* closes #30 - Part Localization
-* closes #13 - English <us-en.cfg>
-* closes #12 - Localization - Master
-
-### Update License
-
-* Updated License: CC BY-SA 4.0
-  * was: CC BY 4.0
-* closes #11 - Update License
-
-### Hero logo
-
-* Create
-  * Hero.png
-* closes #6 - Create HeroLogo.png
-
-### Add localized tags to parts
+### Localization 0.3.99.0
 
 * Add
+  * agency
+* run localizer
+* Localize
   * <SeaDragon.cfg> v1.0.0.0
     * adds localized tags to parts
-* closes #10 - Create <SeaDragon.cfg>
-
-### Localization
-
 * Create
   * Localization/
     * <en-us.cfg>
     * [readme.md] v2.1.2.0
     * [quickstart.md] v1.0.1.1
 * closes #8 - Create Localization directory and contents
+* closes #10 - Create <SeaDragon.cfg>
+* closes #13 - English <us-en.cfg>
+* closes #30 - Part Localization
+* updates #12 - Localization - Master
+
+### Update License 0.3.99.0
+
+* Updated License: CC BY-SA 4.0
+  * was: CC BY 4.0
+* closes #11 - Update License
+
+### Hero logo 0.3.99.0
+
+* Create
+  * Hero.png
+* closes #6 - Create HeroLogo.png
 
 ### Asset Updates
 
@@ -163,6 +161,8 @@
   * closes #2 - 0.3.99.0 Create Legal Mumbo Jumbo
   * closes #3 - 0.3.99.0 Create Documentation
   * closes #4 - 0.3.99.0 Create Social Media Presence
+  * updates #50 - [Bug 🐞]:
+  * updates #49 - [Bug 🐞]: Fairings and tweakscale
 
 ---
 
