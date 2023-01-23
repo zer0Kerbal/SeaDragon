@@ -1,0 +1,76 @@
+// RO-Waterfall.cfg v1.4.0.0
+// Sea Dragon (SEA)
+// created: 25 Mar 2016
+// updated: 21 Jan 2023
+
+// this file: CC BY-SA 4.0 by zer0Kerbal and Al2Me6
+
+// [Al2Me6](https://forum.kerbalspaceprogram.com/index.php?/profile/203355-al2me6/)
+// https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_2020_05/logo.thumb.png.0c24d29c2ec7fcf76c014616223750e6.png
+// https://forum.kerbalspaceprogram.com/index.php?/topic/134934-1213-real-scale-sea-dragon-034-2016-07-12/&do=findComment&comment=3938154
+
+
+// https://forum.kerbalspaceprogram.com/index.php?/topic/134934-1213-real-scale-sea-dragon-034-2016-07-12/&do=findComment&comment=3940764
+
+@PART[sea-engineTVC]:NEEDS[Waterfall]:BEFORE[ROWaterfall]
+{
+    ROWaterfall
+    {
+        template = waterfall-kerolox-lower-5
+        engineID = RSSDTVC
+        audio = pump-fed-very-heavy-1
+        transform = fxTransform
+        position = 0,0,0
+        rotation = 0, 0, 0
+        scale = 4.35, 4.35, 4.35
+        glow = _yellow
+        glowStretch = 0.8
+    }
+}
+
+@PART[sea-engineStage1]:NEEDS[Waterfall]:BEFORE[ROWaterfall]
+{
+    ROWaterfall
+    {
+        template = waterfall-kerolox-lower-4
+        audio = pump-fed-very-heavy-1
+        engineID = RSSD1
+        transform = fxTransform
+        position = 0,0,-0.67
+        rotation = 0, 0, 0
+        scale = 45, 45, 45
+
+        ExtraTemplate
+        {
+            template = waterfall-nozzle-glow-yellow-1
+            position = 0,0,-0.63
+            rotation = 0, 0, 0
+            scale = 19, 19, 18
+        }
+    }
+}
+
+@PART[sea-engineStage2]:NEEDS[Waterfall]:BEFORE[ROWaterfall]
+{
+    ROWaterfall
+    {
+        template = waterfall-hydrolox-upper-1
+        audio = pump-fed-very-heavy-1
+        engineID = RSSD2
+        transform = fxTransform
+        position = 0,0,0
+        rotation = 0, 0, 0
+        scale = 17.4, 17.4, 10
+        glow = ro-hydrolox-blue
+        glowStretch = 0.5
+    }
+}
+
+@PART[sea-engineStage1|sea-engineStage2|sea-engineTVC]:NEEDS[Waterfall]:BEFORE[ROWaterfall]
+{
+    @MODULE[ModuleEnginesFX]
+    {
+        @runningEffectName = running
+    }
+}
+ 

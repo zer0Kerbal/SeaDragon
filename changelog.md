@@ -2,13 +2,169 @@
   
 | modName    | Sea Dragon (SEA)                                                  |
 | ---------- | ----------------------------------------------------------------- |
-| license    | CC-BY-NC-SA-4.0                                                   |
+| license    | CC-BY-SA-4.0                                                      |
 | author     | NecroBones and zer0Kerbal                                         |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/209579-*/) |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/SeaDragon)              |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/SeaDragon)            |
 | spacedock  | (https://spacedock.info/mod/440)                                  |
 | ckan       | SeaDragon                                                         |
+
+## Version 0.3.99.0-adoption - `<Thank you NecroBones>` edition
+
+* Released
+  * 21 Jan 2023
+  * for Kerbal Space Program 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Summary 0.3.99.0
+
+* Adoption by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Changes 0.3.99.0
+
+### Archival Releases
+
+* Add
+  * 0.3.4.0-release - `<Archival>` edition
+  * 0.3.3.0-release - `<Archival>` edition
+  * 0.3.2.0-release - `<Archival>` edition
+  * 0.3.1.0-release - `<Archival>` edition
+  * 0.3.0.0-release - `<Archival>` edition
+  * 0.2.0.0-release - `<Archival>` edition
+  * 0.1.0.0-release - `<Archival>` edition
+
+### Localization 0.3.99.0
+
+* Add
+  * agency
+* run localizer
+* Localize
+  * <SeaDragon.cfg> v1.0.0.0
+    * adds localized tags to parts
+* Create
+  * Localization/
+    * <en-us.cfg>
+    * [readme.md] v2.1.2.0
+    * [quickstart.md] v1.0.1.1
+* closes #8 - Create Localization directory and contents
+* closes #10 - Create <SeaDragon.cfg>
+* closes #13 - English <us-en.cfg>
+* closes #30 - Part Localization
+* updates #12 - Localization - Master
+
+### Update License 0.3.99.0
+
+* Updated License: CC BY-SA 4.0
+  * was: CC BY 4.0
+* closes #11 - Update License
+
+### Hero logo 0.3.99.0
+
+* Create
+  * Hero.png
+* closes #6 - Create HeroLogo.png
+
+### Asset Updates
+
+* create Assets/ folder
+* convert from mesh to MODEL
+* rename
+  * models to unique names
+  * textures to unique names
+* update
+  * model pointers (.png et al to .dds)
+  * model texture pointers to new names
+* relocate assets to Assets/
+* eliminate
+  * duplicate textures
+  * duplicate models
+* size reduction
+  * <RSSDflameParticle02.mbm> --> <RSSDflameParticle02.png>
+    * 193kb --> 27kb
+  * <RSSDsmokeParticle02.mbm> --> <RSSDsmokeParticle02.png>
+    * 257kb --> 19kb
+* relocate part.cfg to Parts/
+* closes #9 - Part Asset Updates
+
+### Sound Asset Updates
+
+* Convert
+  * from `wav` to `ogg`
+    * <RSBengine.wav> --> <RSBengine.ogg>
+      * 518kb --> 69kb
+    * <RSBengine2.wav> --> <RSBengine2.ogg>
+      * 1.531mb --> 98kb
+* 2.43mb --> 210kb
+* closes #46 - Sound Asset Updates
+
+### Thumbnails
+
+* Create
+  * @thumbs/
+  * add thumbnails
+* closes #47 - Create Thumbs
+
+### ghostparts
+
+* Create
+  * [ghostparts.cfg]
+  * this patch which will go away
+* closes #48 - ghostparts
+
+### Parts 0.3.99.0
+
+* Update file names
+  * <RSSDtankStage1.cfg> --> <sea-tankStage1.cfg>
+  * <RSSDtankStage2.cfg> --> <sea-tankStage2.cfg>
+  * <RSSDtankStage3.cfg> --> <sea-tankStage3.cfg>
+  * <RSSDengineStage1.cfg> --> <sea-engineStage1.cfg>
+  * <RSSDengineStage2.cfg> --> <sea-engineStage2.cfg>
+  * <RSSDengineTVC.cfg> --> <sea-engineTVC.cfg>
+  * <RSSDfairing23m.cfg> --> <sea-fairing23m.cfg>
+  * <RSSDtankBallast.cfg> --> <sea-tankBallast.cfg>
+* lint
+
+### docs/
+
+* Update
+  * <SeaDragon.version>
+    * remove
+    * [KSP_VERSION_MAX]
+* Add
+  * [`_config.yml`]
+  * [Attribution.md] v1.0.7.1
+  * [ManualInstallation.md] v1.1.8.0
+  * [404.md] v1.0.3.2
+  * [LegalMumboJumbo.md] v1.0.5.1
+  * [Localizations.md] v1.1.7.0
+  * [Marketing.md] v1.0.1.0
+  * [Notices.md] v1.0.1.0
+  * [PartsCatalog.md] v1.1.4.1
+  * [Why.md] v1.1.0.0
+* closes #5 - Create GitHub Pages
+
+### Compatibility 0.3.99.0
+
+* rename Patches/ --> Compatibility/
+
+### Config 0.3.99.0
+
+* Resources
+* <Category.cfg> v1.4.0.0
+  * update links and flavor text
+
+### Status 0.3.99.0
+
+* Issues
+  * closes #1 - SeaDragon (SEA) 0.3.99.0-adoption `<Thank you NecroBones>` edition
+  * closes #2 - 0.3.99.0 Create Legal Mumbo Jumbo
+  * closes #3 - 0.3.99.0 Create Documentation
+  * closes #4 - 0.3.99.0 Create Social Media Presence
+  * closes #50 - [Bug 🐞]:
+  * closes #49 - [Bug 🐞]: Fairings and tweakscale
+
+---
 
 ## Version 0.3.4.0-release - `<Archival>` edition
 
