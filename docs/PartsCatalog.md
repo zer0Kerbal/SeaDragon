@@ -19,20 +19,32 @@ updated: 15 May 2022 -->
 
 ## Parts Catalog
 
-This add-on adds nine (9) resource parts
+This add-on adds eight (8) gargantuan Sea Dragon parts scaled for RSS
+
+* Engine
+  * Stage 1
+  * Stage 2
+  * TVC
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-engineStage1_icon.png" alt="Engine Stage 1" width="25%" height="25%" /> <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-engineStage2_icon.png" alt="Engine Stage 2" width="25%" height="25%" /> <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-engineTVC_icon.png" alt="Engine TVC" width="25%" height="25%" /> 
+  
+  * Fairing (23m)
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-fairing23m_icon.png" alt="Fairing 23m" width="25%" height="25%" />
+
+* Ballast tank
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-tankBallast_icon.png" alt="Tank Ballast" width="25%" height="25%" />
+
+* Tank
+  * Stage 1
+  * Stage 2
+  * Stage 3
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-tankStage1_icon.png" alt="Tank Stage 1" width="25%" height="25%" /> <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-tankStage2_icon.png" alt="Tank Stage 2" width="25%" height="25%" /> <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-tankStage3_icon.png" alt="Tank Stage 3" width="25%" height="25%" />
 
 ---
 
-* Mallet *(Only with Kerbal Inventory System installed)*
-* SurveyStake
-
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MOD-NAME/master/GameData/MOD-NAME/Parts/%40thumbs/ElMallet_icon.png" alt="Mallet" width="25%" height="25%" /> <img src="https://raw.githubusercontent.com/zer0Kerbal/MOD-NAME/master/GameData/MOD-NAME/Parts/%40thumbs/ELSurveyStake_icon.png" alt="SurveyStake" width="25%" height="25%" />
-
-* MicroPad
-* OrbitalDock
-
----
-
-[top](#Parts-Catalog)
+[top](#parts-catalog)
 
 <!-- this file CC BY-ND 4.0 by zer0Kerbal -->
