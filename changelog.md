@@ -161,8 +161,8 @@
   * closes #2 - 0.3.99.0 Create Legal Mumbo Jumbo
   * closes #3 - 0.3.99.0 Create Documentation
   * closes #4 - 0.3.99.0 Create Social Media Presence
-  * updates #50 - [Bug 🐞]:
-  * updates #49 - [Bug 🐞]: Fairings and tweakscale
+  * closes #50 - [Bug 🐞]:
+  * closes #49 - [Bug 🐞]: Fairings and tweakscale
 
 ---
 
