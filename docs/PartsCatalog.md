@@ -19,17 +19,37 @@ updated: 15 May 2022 -->
 
 ## Parts Catalog
 
-This add-on adds nine (9) resource parts
+This add-on adds eight (8) gargantuan Sea Dragon parts scaled for RSS
 
----
+* Engine
+  * Stage 1
+  * Stage 2
+  * TVC
 
-* Mallet *(Only with Kerbal Inventory System installed)*
-* SurveyStake
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-engineStage1_icon.png" alt="sea-engineStage1" width="25%" height="25%" />
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-engineStage2_icon.png" alt="sea-engineStage2" width="25%" height="25%" />
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-engineTVC_icon.png" alt="sea-engineTVC" width="25%" height="25%" />
 
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MOD-NAME/master/GameData/MOD-NAME/Parts/%40thumbs/ElMallet_icon.png" alt="Mallet" width="25%" height="25%" /> <img src="https://raw.githubusercontent.com/zer0Kerbal/MOD-NAME/master/GameData/MOD-NAME/Parts/%40thumbs/ELSurveyStake_icon.png" alt="SurveyStake" width="25%" height="25%" />
+* Fairing (23m)
 
-* MicroPad
-* OrbitalDock
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-fairing23m_icon.png" alt="sea-fairing23m" width="25%" height="25%" />
+
+* Ballast tank
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-tankBallast_icon.png" alt="sea-tankBallast" width="25%" height="25%" />
+
+* tank
+  * Ballast
+  * Stage 1
+  * Stage 2
+  * Stage 3
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-tankStage1_icon.png" alt="sea-tankStage1" width="25%" height="25%" />
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-tankStage2_icon.png" alt="sea-tankStage2" width="25%" height="25%" />
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SeaDragon/master/docs/thumbs/sea-tankStage3_icon.png" alt="sea-tankStage3" width="25%" height="25%" />
+
+
+
 
 ---
 
