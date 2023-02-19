@@ -41,7 +41,7 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
-## Version 0.3.99.0-prerelease - `<Thank you NecroBones>` edition
+## Version 0.3.99.0-adoption - `<Thank you NecroBones>` edition
 
 * Released
   * 21 Jan 2023
@@ -188,7 +188,7 @@ CC BY-ND 4.0 by zer0Kerbal
 ### Status 0.3.99.0
 
 * Issues
-  * closes #1 - SeaDragon (SEA) 0.3.99.0-prerelease `<Thank you NecroBones>` edition
+  * closes #1 - SeaDragon (SEA) 0.3.99.0-adoption `<Thank you NecroBones>` edition
   * closes #2 - 0.3.99.0 Create Legal Mumbo Jumbo
   * closes #3 - 0.3.99.0 Create Documentation
   * closes #4 - 0.3.99.0 Create Social Media Presence
