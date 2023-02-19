@@ -22,6 +22,25 @@ CC BY-ND 4.0 by zer0Kerbal
 | spacedock  | (https://spacedock.info/mod/440)                                  |
 | ckan       | SeaDragon                                                         |
 
+## Version 0.3.99.1-prerelease - `<Thank you NecroBones>` edition
+
+* Released
+  * 17 Feb 2023
+  * for Kerbal Space Program 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Summary 0.3.99.1
+
+* bug fixes to Balast and staging
+
+* Issues
+  * closes #53 - SeaDragon (SEA) 0.3.99.1-prerelease `<Thank you NecroBones>` edition
+  * closes #54 - 0.3.99.1 Additional Tasks
+  * closes #56 - [BUG] Invalid boolean value! Field staged, value Talse on object of type ModuleDecouple
+  * closes #55 - [Bug]: Staging
+
+---
+
 ## Version 0.3.99.0-adoption - `<Thank you NecroBones>` edition
 
 * Released
