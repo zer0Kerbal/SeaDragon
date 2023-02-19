@@ -10,6 +10,7 @@ Sea Dragon (SEA)
 created: 01 Oct 2019
 updated: 29 Jul 2022 -->
 
+<!-- this file CC BY-ND 4.0 by zer0Kerbal -->
 <!-- based upon work by Lisias -->
 
 # Sea Dragon (SEA)
@@ -52,7 +53,7 @@ To install, place the `GameData` folder inside your Kerbal Space Program folder:
 <KSP_ROOT>
   + [GameData]
     + [NecroBones]
-      + [NecroBones/SeaDragon]
+      + [SeaDragon]
         + [Agencies]
           ...
         + [Compatibility]
@@ -86,6 +87,3 @@ To install, place the `GameData` folder inside your Kerbal Space Program folder:
 ### Dependencies
 
 * none
-
-[mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
-[mml]: https://github.com/net-lisias-ksp/ModuleManager "Module Manager /L"
